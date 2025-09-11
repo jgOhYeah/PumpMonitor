@@ -271,13 +271,59 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "HV",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Main PCB/Mains and power supply/Live_In": [
+        "HV"
+      ],
+      "/Main PCB/Mains and power supply/Live_Out": [
+        "HV"
+      ],
+      "/Main PCB/Mains and power supply/Neutral": [
+        "HV"
+      ],
+      "/Mains and power supply/Live_In": [
+        "HV"
+      ],
+      "/Mains and power supply/Live_Out": [
+        "HV"
+      ],
+      "/Mains and power supply/Neutral": [
+        "HV"
+      ],
+      "Earth_Protective": [
+        "HV"
+      ],
+      "Net-(PS1-AC{slash}L)": [
+        "HV"
+      ],
+      "Net-(PS2-AC{slash}L)": [
+        "HV"
+      ],
+      "Net-(U2-IP+)": [
+        "HV"
+      ],
+      "Net-(U2-IP-)": [
+        "HV"
+      ],
+      "Net-(U5-IP+)": [
+        "HV"
+      ],
+      "Net-(U5-IP-)": [
+        "HV"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -411,6 +457,14 @@
     [
       "c90c4964-ca1b-44d9-8ea9-8989903af0f2",
       "Root"
+    ],
+    [
+      "519408a1-89cc-4bd2-9b7b-cb03d2ff4d33",
+      "Main PCB"
+    ],
+    [
+      "af25d0a2-2d79-4eec-90e8-9f61fcf612d5",
+      "Mains and power supply"
     ]
   ],
   "text_variables": {}
