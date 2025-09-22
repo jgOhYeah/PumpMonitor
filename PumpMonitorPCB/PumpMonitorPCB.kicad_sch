@@ -5,8 +5,8 @@
 	(uuid "c90c4964-ca1b-44d9-8ea9-8989903af0f2")
 	(paper "A4")
 	(title_block
-		(title "Pump monitor - Wiring diagram")
-		(date "2025-09-11")
+		(title "Pump monitor - wiring diagram")
+		(date "2025-09-16")
 		(rev "V0.0.0")
 		(company "Jotham Gates")
 	)
@@ -1226,6 +1226,26 @@
 		)
 		(uuid "a62ed6c1-4132-4343-8cae-83374a9ac037")
 	)
+	(text_box "TODO: Check if the contactor is rated to switch live and neutral in the one switch."
+		(exclude_from_sim no)
+		(at 88.9 125.73 0)
+		(size 27.94 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d64ecd72-44c0-4384-951b-8aa42465390a")
+	)
 	(junction
 		(at 133.35 119.38)
 		(diameter 0)
@@ -1809,7 +1829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d036c82-9148-43e6-bb78-72ba25530e89")
-		(property "Reference" "#J3"
+		(property "Reference" "#J2"
 			(at 63.5 133.35 0)
 			(effects
 				(font
@@ -1864,7 +1884,7 @@
 		(instances
 			(project ""
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2"
-					(reference "#J3")
+					(reference "#J2")
 					(unit 1)
 				)
 			)
@@ -2059,7 +2079,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Earth" input
+		(pin "Earth" output
 			(at 158.75 109.22 180)
 			(uuid "eafbfb08-563c-4218-b4a9-24b3cb5b8e58")
 			(effects
@@ -2079,7 +2099,7 @@
 				(justify left)
 			)
 		)
-		(pin "Live out" input
+		(pin "Live out" output
 			(at 158.75 99.06 180)
 			(uuid "0ab75357-b15a-4fb8-acd9-2afb9bb7d63a")
 			(effects
@@ -2109,7 +2129,7 @@
 				(justify left)
 			)
 		)
-		(pin "Neutral" input
+		(pin "Neutral" output
 			(at 158.75 104.14 180)
 			(uuid "7963ccab-6156-4d1f-867a-d097add386b8")
 			(effects
