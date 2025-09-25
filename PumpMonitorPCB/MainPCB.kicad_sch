@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Pump monitor - PCB")
-		(date "2025-09-16")
+		(date "2025-09-25")
 		(rev "V0.0.0")
 		(company "Jotham Gates")
 	)
@@ -720,6 +720,16 @@
 		)
 		(uuid "5c726fe7-157b-4c77-a9ee-090516e42a99")
 	)
+	(bus
+		(pts
+			(xy 116.84 110.49) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d87fb3-1f61-43a4-b64c-2948bdbc1dfa")
+	)
 	(wire
 		(pts
 			(xy 36.83 39.37) (xy 34.29 39.37)
@@ -729,6 +739,16 @@
 			(type default)
 		)
 		(uuid "689c0ed7-dbb1-4342-80a8-1f6775f4b72d")
+	)
+	(bus
+		(pts
+			(xy 116.84 107.95) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a73697c-4a2f-4e59-9966-21d144a29026")
 	)
 	(wire
 		(pts
@@ -1350,6 +1370,26 @@
 				(justify left)
 			)
 		)
+		(pin "LORA{CS RST RF_SW NSS DIO1 BUSY}" bidirectional
+			(at 152.4 110.49 180)
+			(uuid "2f54b93a-50ca-4cd8-8edd-fe7712952e7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI{MISO MOSI SCK}" bidirectional
+			(at 152.4 107.95 180)
+			(uuid "e23fb90e-6e02-4038-bcd4-8fe107697f9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33"
@@ -1359,8 +1399,8 @@
 		)
 	)
 	(sheet
-		(at 81.28 107.95)
-		(size 35.56 7.62)
+		(at 73.66 105.41)
+		(size 43.18 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1374,8 +1414,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "da0c16f9-ee3c-407f-b19e-ac24af140ef1")
-		(property "Sheetname" "USB"
-			(at 81.28 107.2384 0)
+		(property "Sheetname" "USB and LoRa transceiver"
+			(at 73.66 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,8 +1423,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB.kicad_sch"
-			(at 81.28 116.1546 0)
+		(property "Sheetfile" "USBLoRa.kicad_sch"
+			(at 73.66 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,6 +1435,26 @@
 		(pin "USB{D_P D_N}" bidirectional
 			(at 116.84 113.03 0)
 			(uuid "acff61a2-36e9-4dee-8159-4d99481ccf42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LORA{CS RST RF_SW NSS DIO1 BUSY}" bidirectional
+			(at 116.84 110.49 0)
+			(uuid "bcd8ec05-1118-4449-b8f3-5dbe2ca5aee0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI{MISO MOSI SCK}" bidirectional
+			(at 116.84 107.95 0)
+			(uuid "b37fabc3-f454-40ae-b952-1f55ba1b2b31")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Pump monitor - mains and power supply")
-		(date "2025-09-16")
+		(date "2025-09-25")
 		(rev "V0.0.0")
 		(company "Jotham Gates")
 	)
@@ -866,189 +866,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3139,9 +2956,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "The virtual ground is based off 5V rail so that it can also be used to measure the relationship between the 5V and 3.3V rails."
+	(text_box "The virtual ground is based off the 5V rail so that it can also be used to measure the relationship between the 5V and 3.3V rails if need be."
 		(exclude_from_sim no)
-		(at 193.04 118.11 0)
+		(at 196.85 115.57 0)
 		(size 33.02 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3158,6 +2975,26 @@
 			(justify left top)
 		)
 		(uuid "1b07df73-7f8f-4318-9179-8a48d8736225")
+	)
+	(text_box "R??? Is optional and is used to load TR??? if required."
+		(exclude_from_sim no)
+		(at 107.95 110.49 0)
+		(size 24.13 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7550dfa9-c4ef-4914-9a00-e32471d139de")
 	)
 	(text_box "PS1 has a 2A internal fuse."
 		(exclude_from_sim no)
@@ -3269,12 +3106,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77013b24-664b-4302-986b-20d4f6c2b947")
-	)
-	(junction
-		(at 114.3 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7abcf41a-4b1c-4ada-9aeb-02d4ecb96d52")
 	)
 	(junction
 		(at 86.36 147.32)
@@ -3604,16 +3435,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 105.41 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fd58155-0ad0-441d-9661-4705ea945511")
-	)
-	(wire
-		(pts
 			(xy 67.31 39.37) (xy 67.31 72.39)
 		)
 		(stroke
@@ -3644,16 +3465,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 142.24) (xy 241.3 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37e1bbbf-e972-41ee-88c9-ee82e9c6e110")
-	)
-	(wire
-		(pts
 			(xy 80.01 44.45) (xy 80.01 46.99)
 		)
 		(stroke
@@ -3671,16 +3482,6 @@
 			(type default)
 		)
 		(uuid "3bf6860b-5190-4504-a242-6880b25583a3")
-	)
-	(wire
-		(pts
-			(xy 114.3 96.52) (xy 114.3 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cb96887-4e7a-481d-867e-d6d37a1aa208")
 	)
 	(wire
 		(pts
@@ -3704,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 100.33) (xy 100.33 100.33)
+			(xy 100.33 100.33) (xy 102.87 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3954,16 +3755,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 106.68) (xy 114.3 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6adf9895-f4fb-4a53-8845-12fd79fb6678")
-	)
-	(wire
-		(pts
 			(xy 102.87 92.71) (xy 92.71 92.71)
 		)
 		(stroke
@@ -4094,16 +3885,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 86.36) (xy 114.3 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "843e6eaa-c2d8-44db-b936-542622300c46")
-	)
-	(wire
-		(pts
 			(xy 146.05 170.18) (xy 146.05 167.64)
 		)
 		(stroke
@@ -4214,16 +3995,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 152.4) (xy 241.3 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8f00762-188e-4d88-aed8-6ae47c4c2685")
-	)
-	(wire
-		(pts
 			(xy 55.88 34.29) (xy 69.85 34.29)
 		)
 		(stroke
@@ -4241,16 +4012,6 @@
 			(type default)
 		)
 		(uuid "b12f08fc-0cfe-4be4-9fca-54e2974d239f")
-	)
-	(wire
-		(pts
-			(xy 114.3 86.36) (xy 121.92 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b587a422-90af-4df8-a080-b84e1022ece2")
 	)
 	(wire
 		(pts
@@ -4301,16 +4062,6 @@
 			(type default)
 		)
 		(uuid "c9051e20-abf5-4b3f-ac72-6d74c7e5ccc5")
-	)
-	(wire
-		(pts
-			(xy 105.41 86.36) (xy 114.3 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95ebfbd-c213-400a-bf84-1694ed097423")
 	)
 	(wire
 		(pts
@@ -4371,16 +4122,6 @@
 			(type default)
 		)
 		(uuid "db67124c-a66f-43cf-8823-9a3940b737c2")
-	)
-	(wire
-		(pts
-			(xy 241.3 132.08) (xy 241.3 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc88e0ff-37fd-4aaa-8359-8afb00292365")
 	)
 	(wire
 		(pts
@@ -4565,7 +4306,7 @@
 	)
 	(hierarchical_label "Output control"
 		(shape input)
-		(at 121.92 86.36 0)
+		(at 102.87 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4885,72 +4626,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 114.3 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0457aa90-bbc8-4755-ae6a-f809c4d353cf")
-		(property "Reference" "#PWR09"
-			(at 114.3 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39b5685a-8a8e-42aa-b24f-7175d0b28a66")
-		)
-		(instances
-			(project "PumpMonitorPCB"
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 52.07 132.08 90)
 		(unit 1)
@@ -5094,7 +4769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a702de6-8725-4a94-b84a-4d5ceef74523")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 187.96 139.6999 0)
 			(effects
 				(font
@@ -5103,7 +4778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 187.96 142.2399 0)
 			(effects
 				(font
@@ -5148,7 +4823,7 @@
 		(instances
 			(project ""
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5164,7 +4839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ccbf0a4-2a94-4475-9c7e-aac31b6fb328")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 118.11 41.9099 0)
 			(effects
 				(font
@@ -5218,7 +4893,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5308,7 +4983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "224fdb64-2420-4c49-8e88-8dc4de742a07")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 185.42 125.73 0)
 			(effects
 				(font
@@ -5358,7 +5033,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5666,7 +5341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41a6d1e6-681b-4eee-bef0-994bf7d8b03b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 135.89 148.59 0)
 			(effects
 				(font
@@ -5716,7 +5391,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5732,7 +5407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "488672c0-fd7a-4fca-ae13-0e920c75b6c9")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 158.75 168.91 0)
 			(effects
 				(font
@@ -5782,7 +5457,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5876,7 +5551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 177.8 142.2399 0)
 			(effects
 				(font
@@ -5937,7 +5612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5336487c-c885-40da-a6f9-01e93a78da19")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 138.43 134.6199 90)
 			(effects
 				(font
@@ -5991,7 +5666,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6060,72 +5735,6 @@
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 241.3 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a92557c-3727-4f2d-a300-7ebf1253a2fc")
-		(property "Reference" "#PWR017"
-			(at 241.3 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 241.3 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 241.3 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27e2c481-973e-4a59-936a-5d6726c595c2")
-		)
-		(instances
-			(project "PumpMonitorPCB"
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6417,7 +6026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97f0e28c-0ddd-45ec-a3ae-60b913779a45")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 199.39 139.6999 90)
 			(effects
 				(font
@@ -6471,7 +6080,7 @@
 		(instances
 			(project ""
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6548,142 +6157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 114.3 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a14d0b33-1d1e-4e4d-ae85-210db1c828b5")
-		(property "Reference" "R5"
-			(at 116.84 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 116.84 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 112.522 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "efa7426f-f530-47d7-bc64-65aa904973e4")
-		)
-		(pin "1"
-			(uuid "2cc76945-fb84-48fa-96f0-047b6416a983")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4c8d6ba-f947-45b8-9e7f-2a0b57a79226")
-		(property "Reference" "#PWR018"
-			(at 241.3 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b274a33e-b957-4f52-a2cc-930bf618aa60")
-		)
-		(instances
-			(project "PumpMonitorPCB"
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 160.02 30.48 0)
 		(unit 1)
@@ -6693,7 +6166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aab70b31-b5f5-4079-8d3d-eea7c6741eea")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 160.02 34.29 0)
 			(effects
 				(font
@@ -6743,7 +6216,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6818,85 +6291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 241.3 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0f7073a-3d9f-4e0e-bc34-08f5b3b8c83d")
-		(property "Reference" "D5"
-			(at 245.11 148.9074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Output"
-			(at 245.11 151.4474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a3f53ea-74dc-4be6-aa36-c21d886c11a6")
-		)
-		(pin "2"
-			(uuid "34447ada-0caa-4316-ad2b-25fe1c8d8b77")
-		)
-		(instances
-			(project "PumpMonitorPCB"
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 196.85 149.86 0)
 		(unit 1)
@@ -6906,7 +6300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1f389d5-4c7d-4336-ae93-aa502d877cee")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 196.85 156.21 0)
 			(effects
 				(font
@@ -6956,86 +6350,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 114.3 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4f35ec5-57ca-4a34-b367-50d00256dded")
-		(property "Reference" "D2"
-			(at 118.11 103.1874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Output"
-			(at 118.11 105.7274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 114.3 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76161792-4b3d-4bfa-aef5-7cffe37f700a")
-		)
-		(pin "2"
-			(uuid "4dd1b4f0-f3de-4f7f-8a4f-955bec9c4e04")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "D2")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7215,76 +6530,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 241.3 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c135bd75-46ed-406c-9879-10cae095f571")
-		(property "Reference" "R9"
-			(at 243.84 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 243.84 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 239.522 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 241.3 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aaa85ce0-ffc8-4a6d-89a5-ec9cb8b072ce")
-		)
-		(pin "1"
-			(uuid "dc274c08-5795-4011-8155-a06acb4f187f")
-		)
-		(instances
-			(project "PumpMonitorPCB"
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 92.71 182.88 0)
 		(unit 1)
@@ -7360,7 +6605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6614452-c5cd-453a-b2b3-43f85ebdf554")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 187.96 126.9999 0)
 			(effects
 				(font
@@ -7369,7 +6614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.6k"
 			(at 187.96 129.5399 0)
 			(effects
 				(font
@@ -7414,7 +6659,7 @@
 		(instances
 			(project ""
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7715,7 +6960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d82d3b91-3449-4a11-bb45-48dd13997029")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 115.57 55.88 0)
 			(effects
 				(font
@@ -7765,7 +7010,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7847,7 +7092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df106108-4f68-498b-a444-2abdb79abf6e")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 160.02 49.53 0)
 			(effects
 				(font
@@ -7897,7 +7142,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d43e5729-96b5-4892-980a-41f5073f0d0e"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
