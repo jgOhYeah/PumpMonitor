@@ -3027,7 +3027,7 @@
 		)
 		(uuid "5b4d6b92-b40e-42fd-817e-18bdb7da0d6a")
 	)
-	(label "SPI.MOSI"
+	(label "SPI.COPI"
 		(at 92.71 44.45 180)
 		(effects
 			(font
@@ -3037,7 +3037,7 @@
 		)
 		(uuid "5c986720-6c75-4688-bef7-7dc2b3c1030a")
 	)
-	(label "SPI.MISO"
+	(label "SPI.CIPO"
 		(at 92.71 41.91 180)
 		(effects
 			(font
@@ -3129,7 +3129,7 @@
 		)
 		(uuid "a098259e-65e5-43ff-9681-7f8531abee38")
 	)
-	(hierarchical_label "SPI{MISO MOSI SCK}"
+	(hierarchical_label "SPI{CIPO COPI SCK}"
 		(shape bidirectional)
 		(at 59.69 68.58 180)
 		(effects
@@ -3346,7 +3346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 144.4752 52.07 0)
 			(effects
 				(font
@@ -3548,7 +3548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 201.422 115.57 90)
 			(effects
 				(font
@@ -3720,7 +3720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 192.532 115.57 90)
 			(effects
 				(font
@@ -3874,7 +3874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f966669-a359-4d9b-9d39-d4f0b409ca9f")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 243.84 93.98 0)
 			(effects
 				(font
@@ -3971,7 +3971,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)

@@ -691,6 +691,10 @@
     [
       "da0c16f9-ee3c-407f-b19e-ac24af140ef1",
       "USB and LoRa transceiver"
+    ],
+    [
+      "91bf94f0-7f00-44b4-9278-0ffa2bbc6ab6",
+      "Auxilliary connectors"
     ]
   ],
   "text_variables": {}

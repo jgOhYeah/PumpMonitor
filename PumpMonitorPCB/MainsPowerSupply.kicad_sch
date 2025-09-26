@@ -3017,6 +3017,26 @@
 		)
 		(uuid "dd099901-22eb-4433-ba88-1e7be4252697")
 	)
+	(text_box "Use a 10A fuse for F1 if no external contactor is to be used."
+		(exclude_from_sim no)
+		(at 17.78 15.24 0)
+		(size 36.83 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fc776154-5642-453f-b039-18735691ce85")
+	)
 	(junction
 		(at 92.71 92.71)
 		(diameter 0)
@@ -4583,7 +4603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 125.4252 142.24 0)
 			(effects
 				(font
@@ -4787,7 +4807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 183.642 140.97 90)
 			(effects
 				(font
@@ -4857,7 +4877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 117.348 43.18 90)
 			(effects
 				(font
@@ -5214,7 +5234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.80mm"
 			(at 159.7152 177.8 0)
 			(effects
 				(font
@@ -5491,7 +5511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 147.0152 177.8 0)
 			(effects
 				(font
@@ -5560,7 +5580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 174.9552 144.78 0)
 			(effects
 				(font
@@ -5621,7 +5641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.4"
+		(property "Value" "3.3V - DDZ9684-7"
 			(at 138.43 137.1599 90)
 			(effects
 				(font
@@ -5630,7 +5650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 135.89 135.89 0)
 			(effects
 				(font
@@ -5690,7 +5710,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "600mA"
 			(at 52.07 30.48 90)
 			(effects
 				(font
@@ -5768,7 +5788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 160.9852 40.64 0)
 			(effects
 				(font
@@ -5838,7 +5858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 93.472 138.43 90)
 			(effects
 				(font
@@ -5908,7 +5928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 113.9952 177.8 0)
 			(effects
 				(font
@@ -6035,7 +6055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.4"
+		(property "Value" "3.3V - DDZ9684-7"
 			(at 199.39 142.2399 90)
 			(effects
 				(font
@@ -6044,7 +6064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 196.85 140.97 0)
 			(effects
 				(font
@@ -6114,7 +6134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 103.8352 46.99 0)
 			(effects
 				(font
@@ -6248,7 +6268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 96.52 38.608 90)
 			(effects
 				(font
@@ -6623,7 +6643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 183.642 128.27 90)
 			(effects
 				(font
@@ -6908,7 +6928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 104.14 127.762 90)
 			(effects
 				(font
@@ -7176,7 +7196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.80mm"
 			(at 101.2952 177.8 0)
 			(effects
 				(font
@@ -7237,7 +7257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4004"
+		(property "Value" "B5819WSL-TP"
 			(at 105.41 83.8199 90)
 			(effects
 				(font
@@ -7246,7 +7266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 98.425 82.55 0)
 			(effects
 				(font
@@ -7334,7 +7354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 111.252 138.43 90)
 			(effects
 				(font
