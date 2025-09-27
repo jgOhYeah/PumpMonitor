@@ -9,6 +9,7 @@
 		(date "2025-09-25")
 		(rev "V0.0.0")
 		(company "Jotham Gates")
+		(comment 4 "Warning: Parts of this circuit operate at mains potential.")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x06"
@@ -5915,7 +5916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0457aa90-bbc8-4755-ae6a-f809c4d353cf")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR039"
 			(at 156.21 186.69 0)
 			(effects
 				(font
@@ -5965,7 +5966,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR031")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5981,7 +5982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "050d6d51-9ece-41d8-9b36-cfd3e1217c5b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR037"
 			(at 140.97 186.69 0)
 			(effects
 				(font
@@ -6031,7 +6032,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR029")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6047,7 +6048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "060e8856-e2c6-45b0-8c1d-ce6310096259")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR033"
 			(at 95.25 186.69 0)
 			(effects
 				(font
@@ -6097,7 +6098,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR025")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6113,7 +6114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bec9e34-3190-4054-8ef3-cbcfb50bcc34")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 39.37 172.7199 0)
 			(effects
 				(font
@@ -6203,7 +6204,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6219,7 +6220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c9e87d6-73a4-4158-bb71-8435e4300ca9")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR051"
 			(at 256.54 130.81 0)
 			(effects
 				(font
@@ -6269,7 +6270,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR043")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6285,7 +6286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d94a038-69ab-4a23-a539-cb23ed2949e4")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 185.42 86.3599 0)
 			(effects
 				(font
@@ -6294,7 +6295,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 185.42 88.8999 0)
 			(effects
 				(font
@@ -6339,7 +6340,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6534,7 +6535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd609fc-0cb6-4461-8244-36599e9c2524")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR027"
 			(at 52.07 54.61 0)
 			(effects
 				(font
@@ -6584,7 +6585,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR019")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6600,7 +6601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1debddd4-640a-47da-b875-498efe923bf4")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 198.12 86.3599 0)
 			(effects
 				(font
@@ -6609,7 +6610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 198.12 88.8999 0)
 			(effects
 				(font
@@ -6654,7 +6655,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6670,7 +6671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f233b33-858f-4439-adc8-997a44f9a803")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 55.88 40.6399 0)
 			(effects
 				(font
@@ -6679,7 +6680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 55.88 43.1799 0)
 			(effects
 				(font
@@ -6724,7 +6725,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6740,7 +6741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "320a93bd-6126-4d3f-aa95-7ade0ebc1078")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 260.35 143.5099 0)
 			(effects
 				(font
@@ -6749,7 +6750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 260.35 146.0499 0)
 			(effects
 				(font
@@ -6794,7 +6795,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6810,7 +6811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c10af94-7277-4ad0-8cab-7d540c5465d4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR052"
 			(at 256.54 142.24 0)
 			(effects
 				(font
@@ -6860,7 +6861,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR044")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6876,7 +6877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "411e3bc7-9f60-4927-b1ac-fa717a00ea96")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR049"
 			(at 240.03 102.87 0)
 			(effects
 				(font
@@ -6926,7 +6927,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR041")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6942,7 +6943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "422e40b0-9108-4fe4-b63e-7b65478bea31")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 82.1533 45.72 0)
 			(effects
 				(font
@@ -7113,7 +7114,7 @@
 		(instances
 			(project ""
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7129,7 +7130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4316332a-00a5-4989-8dfc-5593c0571b51")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR047"
 			(at 194.31 100.33 0)
 			(effects
 				(font
@@ -7179,7 +7180,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR039")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7277,7 +7278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a5ea238-cbba-4af3-9068-112ac5864d79")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR050"
 			(at 240.03 156.21 0)
 			(effects
 				(font
@@ -7327,7 +7328,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR042")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7483,7 +7484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5104bc45-d300-4f5f-bf2c-0d1feb7cad18")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR028"
 			(at 60.96 158.75 0)
 			(effects
 				(font
@@ -7533,7 +7534,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR020")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7549,7 +7550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56e63dc7-8980-4893-8ec0-23fa0f229e8d")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR038"
 			(at 148.59 57.15 0)
 			(effects
 				(font
@@ -7599,7 +7600,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR030")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7615,7 +7616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5970a0b9-b341-43d7-8f77-748347458c26")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR024"
 			(at 35.56 158.75 0)
 			(effects
 				(font
@@ -7665,7 +7666,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR016")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7681,7 +7682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e0bde9c-aa97-49b1-b7ac-5030a0f7b785")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR043"
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -7731,7 +7732,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR035")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7747,7 +7748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6953bff7-e979-442f-97f0-c6bde120818f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR042"
 			(at 165.1 147.32 0)
 			(effects
 				(font
@@ -7797,7 +7798,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR034")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7813,7 +7814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a92557c-3727-4f2d-a300-7ebf1253a2fc")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR034"
 			(at 109.22 161.29 0)
 			(effects
 				(font
@@ -7863,7 +7864,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR026")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7879,7 +7880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6be68b26-e318-47db-b19f-97f5bc2716e0")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR053"
 			(at 256.54 157.48 0)
 			(effects
 				(font
@@ -7929,7 +7930,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR045")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7945,7 +7946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72f6e404-3bf4-43c9-9d37-1614181db443")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR041"
 			(at 162.56 46.99 0)
 			(effects
 				(font
@@ -7995,7 +7996,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR033")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8011,7 +8012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78ee4faa-44cc-481e-8dbd-6460a3ab1fdb")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 64.77 172.7199 0)
 			(effects
 				(font
@@ -8101,7 +8102,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8117,7 +8118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81cef313-a689-4c79-b6c5-3c924b1aa3cd")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR040"
 			(at 160.02 104.14 0)
 			(effects
 				(font
@@ -8167,7 +8168,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR032")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8289,7 +8290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c21e223-3eb1-4c04-87ac-f15d8f7ecf20")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR025"
 			(at 35.56 186.69 0)
 			(effects
 				(font
@@ -8339,7 +8340,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR017")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8355,7 +8356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e469bde-907e-4990-baf0-3368584fedce")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR036"
 			(at 123.19 186.69 0)
 			(effects
 				(font
@@ -8405,7 +8406,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR028")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8421,7 +8422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e85f15f-4495-4481-9460-e74ffa9085d9")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR046"
 			(at 194.31 85.09 0)
 			(effects
 				(font
@@ -8471,7 +8472,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR038")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8557,7 +8558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a5a29df-a846-4539-9e30-63caafa24faa")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR026"
 			(at 52.07 39.37 0)
 			(effects
 				(font
@@ -8607,7 +8608,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR018")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8729,7 +8730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a127d858-5571-434f-ad3a-e3fefbd7d119")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 167.2433 135.89 0)
 			(effects
 				(font
@@ -8825,7 +8826,7 @@
 		(instances
 			(project ""
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -8911,7 +8912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4c8d6ba-f947-45b8-9e7f-2a0b57a79226")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR035"
 			(at 109.22 186.69 0)
 			(effects
 				(font
@@ -8961,7 +8962,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR027")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9056,7 +9057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b21df002-1578-42ca-a64b-aaf8eaca7790")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR030"
 			(at 80.01 49.53 0)
 			(effects
 				(font
@@ -9106,7 +9107,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR022")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9465,7 +9466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb4c4587-ad09-42fd-afea-55699a0c7ae6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR045"
 			(at 181.61 100.33 0)
 			(effects
 				(font
@@ -9515,7 +9516,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR037")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9601,7 +9602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c269f2cc-3e82-4a70-930d-30e5f45f7c21")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 80.01 113.03 0)
 			(effects
 				(font
@@ -9651,7 +9652,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR023")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9667,7 +9668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c519f170-c336-4c2e-ab93-31ac925aa31a")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR044"
 			(at 181.61 85.09 0)
 			(effects
 				(font
@@ -9717,7 +9718,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR036")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9846,7 +9847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9c7adef-dd9d-49b9-b4e7-179a181a8951")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 80.01 186.69 0)
 			(effects
 				(font
@@ -9896,7 +9897,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9912,7 +9913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddbbaa59-861f-4b7e-aa05-91aa26e9ade5")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR029"
 			(at 60.96 186.69 0)
 			(effects
 				(font
@@ -9962,7 +9963,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR021")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9977,7 +9978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e75d9b0b-d884-43ae-8e63-891b9258003a")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR048"
 			(at 227.33 125.73 0)
 			(effects
 				(font
@@ -10027,7 +10028,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "#PWR040")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)

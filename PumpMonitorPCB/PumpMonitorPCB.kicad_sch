@@ -9,6 +9,7 @@
 		(date "2025-09-25")
 		(rev "V0.0.0")
 		(company "Jotham Gates")
+		(comment 4 "Warning: Parts of this circuit operate at mains potential.")
 	)
 	(lib_symbols
 		(symbol "AustralianPowerpoints:3PinMainsPowerPlug"

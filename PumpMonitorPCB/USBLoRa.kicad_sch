@@ -9,6 +9,7 @@
 		(date "2025-09-25")
 		(rev "V0.0.0")
 		(company "Jotham Gates")
+		(comment 4 "Warning: Parts of this circuit operate at mains potential.")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -954,6 +955,173 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4004"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4004"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4004_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4004_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2559,6 +2727,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 99.06) (xy 220.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536a4a54-4922-44cb-9d35-0305ef4927a3")
+	)
+	(wire
+		(pts
 			(xy 69.85 52.07) (xy 80.01 52.07)
 		)
 		(stroke
@@ -2799,7 +2977,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 101.6) (xy 226.06 99.06)
+			(xy 220.98 91.44) (xy 220.98 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2887,16 +3065,6 @@
 		)
 		(uuid "ceab7735-a563-4b7a-b282-f7a834a683c9")
 	)
-	(wire
-		(pts
-			(xy 228.6 101.6) (xy 226.06 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0d1396c-bb5b-4133-b9a3-270aae20fc46")
-	)
 	(bus
 		(pts
 			(xy 137.16 46.99) (xy 137.16 73.66)
@@ -2916,6 +3084,16 @@
 			(type default)
 		)
 		(uuid "d54f24df-41f0-4e38-930f-4922bedf9bdf")
+	)
+	(wire
+		(pts
+			(xy 220.98 101.6) (xy 228.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd310294-9098-4dbe-8fdb-4ebfdc663c3c")
 	)
 	(wire
 		(pts
@@ -3150,7 +3328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10bb4aaf-8431-4fb4-b1c9-ff8edcbc322a")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR060"
 			(at 148.59 129.54 0)
 			(effects
 				(font
@@ -3200,7 +3378,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR052")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3215,7 +3393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "122ea1b0-8894-4815-8564-b29df07e350e")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 148.59 102.87 0)
 			(effects
 				(font
@@ -3312,7 +3490,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3328,7 +3506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1604de37-c2ef-473c-a07a-95ad16379ccf")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 147.32 46.9899 0)
 			(effects
 				(font
@@ -3337,7 +3515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 147.32 49.5299 0)
 			(effects
 				(font
@@ -3382,7 +3560,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b160bb1-151d-46e7-86cf-cdac0715f040")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR059"
 			(at 143.51 60.96 0)
 			(effects
 				(font
@@ -3448,7 +3626,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR051")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3464,7 +3642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b91ba97-4069-4c12-bd7a-6c02b6982169")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR056"
 			(at 120.65 55.88 0)
 			(effects
 				(font
@@ -3514,7 +3692,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR048")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3636,7 +3814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28a2b759-8158-4d68-b7c6-d8ee72be31e6")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR057"
 			(at 135.89 114.3 0)
 			(effects
 				(font
@@ -3686,7 +3864,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR049")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3808,7 +3986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b15360b-34cb-4997-8a7e-fd1c43da09d5")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR054"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -3858,7 +4036,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR046")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3987,7 +4165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64bbfadd-40e3-448f-843b-46c9cae24995")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 105.41 31.75 0)
 			(effects
 				(font
@@ -4069,7 +4247,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "U5")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4077,7 +4255,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 226.06 99.06 0)
+		(at 220.98 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4085,8 +4263,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1770b0-f8c9-4fa8-9bb3-a9aa5418d8da")
-		(property "Reference" "#PWR054"
-			(at 226.06 102.87 0)
+		(property "Reference" "#PWR062"
+			(at 220.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4273,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 93.98 0)
+			(at 220.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 99.06 0)
+			(at 220.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 99.06 0)
+			(at 220.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 99.06 0)
+			(at 220.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +4313,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR054")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4151,7 +4329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "887622e6-98fe-41cb-a94d-c7fb5b1cc2b9")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR055"
 			(at 90.17 66.04 0)
 			(effects
 				(font
@@ -4201,7 +4379,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR047")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4217,7 +4395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6ebd62f-803b-4410-87b8-c84a2da9d12f")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR061"
 			(at 194.31 130.81 0)
 			(effects
 				(font
@@ -4267,7 +4445,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR053")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4283,7 +4461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b709713e-01fa-4dfe-8e24-2cda8e1cde88")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR058"
 			(at 143.51 45.72 0)
 			(effects
 				(font
@@ -4333,7 +4511,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR050")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4349,7 +4527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae54ba4-bcb7-473e-a7a2-7ca16901f462")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR063"
 			(at 243.84 151.13 0)
 			(effects
 				(font
@@ -4399,7 +4577,95 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR055")
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4004")
+		(at 220.98 95.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd5191d8-3e8e-4529-8c9d-7954d7514f21")
+		(property "Reference" "D8"
+			(at 218.44 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMEG1020EH,115"
+			(at 218.44 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 225.425 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 220.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4a79cea-7098-4c7c-be9a-77346dfc9932")
+		)
+		(pin "1"
+			(uuid "0d57bfb5-206f-49e7-8913-6e15f0956099")
+		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
+					(reference "D8")
 					(unit 1)
 				)
 			)
