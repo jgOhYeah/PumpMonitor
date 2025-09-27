@@ -1207,6 +1207,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DRAFT"
+		(exclude_from_sim no)
+		(at 232.918 145.796 0)
+		(effects
+			(font
+				(size 10 10)
+			)
+		)
+		(uuid "293cb31e-c6be-49e1-94d0-d37e9b02f45d")
+	)
 	(text_box "For loads with lower power requirements, the #K1 and #CB1 may be omitted and the live output pin of the PCB used to directly control the load. Follow the blue dotted lines."
 		(exclude_from_sim no)
 		(at 163.83 123.19 0)
@@ -1226,6 +1236,26 @@
 			(justify left top)
 		)
 		(uuid "a62ed6c1-4132-4343-8cae-83374a9ac037")
+	)
+	(text_box "TODO: Fix U1 not measuring pump current when using a contactor.\n\n- Fix up the wiring diagram after adding neutral current sensing."
+		(exclude_from_sim no)
+		(at 177.8 68.58 0)
+		(size 52.07 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bea870a3-9d60-4a77-b072-3c641b56bf31")
 	)
 	(text_box "TODO: Check if the contactor is rated to switch live and neutral in the one switch."
 		(exclude_from_sim no)
@@ -2090,29 +2120,9 @@
 				(justify left)
 			)
 		)
-		(pin "Live In" input
-			(at 158.75 96.52 180)
-			(uuid "d531f00a-dde6-4ad2-b5bc-4a62ce475798")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Live out" output
 			(at 158.75 99.06 180)
 			(uuid "0ab75357-b15a-4fb8-acd9-2afb9bb7d63a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Neutral" input
-			(at 158.75 101.6 180)
-			(uuid "ba5a4ce7-800c-4f8f-be94-225a6932e482")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,9 +2140,29 @@
 				(justify left)
 			)
 		)
-		(pin "Neutral" output
+		(pin "Live in" input
+			(at 158.75 96.52 180)
+			(uuid "ce964efe-07ef-4b6a-afd8-d16833ea4453")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Neutral in" input
+			(at 158.75 101.6 180)
+			(uuid "daeedf61-c9ad-48da-8d9e-97066c0f58fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Neutral out" output
 			(at 158.75 104.14 180)
-			(uuid "7963ccab-6156-4d1f-867a-d097add386b8")
+			(uuid "34742277-d1db-4756-ba75-6013da25bd6f")
 			(effects
 				(font
 					(size 1.27 1.27)

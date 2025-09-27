@@ -505,6 +505,9 @@
       "/Main PCB/Live In": [
         "HV"
       ],
+      "/Main PCB/Live in": [
+        "HV"
+      ],
       "/Main PCB/Live out": [
         "HV"
       ],
@@ -520,6 +523,12 @@
       "/Main PCB/Neutral": [
         "HV"
       ],
+      "/Main PCB/Neutral in": [
+        "HV"
+      ],
+      "/Main PCB/Neutral out": [
+        "HV"
+      ],
       "/Mains and power supply/Live_In": [
         "HV"
       ],
@@ -530,6 +539,9 @@
         "HV"
       ],
       "Earth_Protective": [
+        "HV"
+      ],
+      "Net-(F1-Pad2)": [
         "HV"
       ],
       "Net-(PS1-AC{slash}L)": [
@@ -711,7 +723,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "Out/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
