@@ -12,7 +12,7 @@
 		(comment 4 "Warning: Parts of this circuit operate at mains potential.")
 	)
 	(lib_symbols
-		(symbol "AustralianPowerpoints:3PinMainsPowerPlug"
+		(symbol "AustralianPowerpoints:3PinMainsPowerPlug_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -23,7 +23,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 22.86 0)
+				(at 0 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,7 +31,7 @@
 				)
 			)
 			(property "Value" "10A mains plug"
-				(at 0 20.32 0)
+				(at 0 11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -74,10 +74,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "3PinMainsPowerPlug_1_0"
+			(symbol "3PinMainsPowerPlug_Small_1_0"
 				(polyline
 					(pts
-						(xy -19.05 3.81) (xy -7.4075 3.81)
+						(xy -10.16 1.27) (xy -4.064 1.27)
 					)
 					(stroke
 						(width 0)
@@ -89,7 +89,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.3028 6.0252) (xy -7.327 0.7871) (xy -8.6716 1.5634) (xy -5.6474 6.8014) (xy -4.3028 6.0252)
+						(xy -2.1514 3.0126) (xy -3.6635 0.3936) (xy -4.3358 0.7817) (xy -2.8237 3.4007) (xy -2.1514 3.0126)
 					)
 					(stroke
 						(width 0)
@@ -101,7 +101,7 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 18.5737)
+					(radius 9.2869)
 					(stroke
 						(width 0)
 						(type solid)
@@ -112,7 +112,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -12.8349) (xy 0 -19.05)
+						(xy 0 -6.4175) (xy 0 -10.16)
 					)
 					(stroke
 						(width 0)
@@ -124,7 +124,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.8222 -12.8126) (xy -0.7304 -12.8126) (xy -0.7304 -6.7642) (xy 0.8222 -6.7642) (xy 0.8222 -12.8126)
+						(xy 0.4111 -6.4063) (xy -0.3652 -6.4063) (xy -0.3652 -3.3821) (xy 0.4111 -3.3821) (xy 0.4111 -6.4063)
 					)
 					(stroke
 						(width 0)
@@ -136,7 +136,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.4075 3.81) (xy 19.05 3.81)
+						(xy 4.064 1.27) (xy 10.16 1.27)
 					)
 					(stroke
 						(width 0)
@@ -148,7 +148,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.7634 1.5634) (xy 7.4188 0.7871) (xy 4.3946 6.0252) (xy 5.7392 6.8014) (xy 8.7634 1.5634)
+						(xy 4.3817 0.7817) (xy 3.7094 0.3936) (xy 2.1973 3.0126) (xy 2.8696 3.4007) (xy 4.3817 0.7817)
 					)
 					(stroke
 						(width 0)
@@ -159,25 +159,25 @@
 					)
 				)
 			)
-			(symbol "3PinMainsPowerPlug_1_1"
-				(text "Live"
-					(at -9.398 5.334 0)
+			(symbol "3PinMainsPowerPlug_Small_1_1"
+				(text "L"
+					(at -4.826 2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "Earth"
-					(at 4.064 -12.192 0)
+				(text "E"
+					(at 1.524 -6.35 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "Neutral"
-					(at 10.922 5.08 0)
+				(text "N"
+					(at 4.826 2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -185,7 +185,7 @@
 					)
 				)
 				(pin power_out line
-					(at -21.59 3.81 0)
+					(at -12.7 1.27 0)
 					(length 2.54)
 					(name "Live"
 						(effects
@@ -203,7 +203,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -21.59 90)
+					(at 0 -12.7 90)
 					(length 2.54)
 					(name "Earth"
 						(effects
@@ -221,7 +221,7 @@
 					)
 				)
 				(pin power_out line
-					(at 21.59 3.81 180)
+					(at 12.7 1.27 180)
 					(length 2.54)
 					(name "Neutral"
 						(effects
@@ -241,7 +241,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "AustralianPowerpoints:3PinMainsPowerSocket"
+		(symbol "AustralianPowerpoints:3PinMainsPowerSocket_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -252,7 +252,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 22.86 0)
+				(at 0 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -260,7 +260,7 @@
 				)
 			)
 			(property "Value" "10A mains socket"
-				(at 0 20.32 0)
+				(at 0 11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -303,10 +303,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "3PinMainsPowerSocket_1_0"
+			(symbol "3PinMainsPowerSocket_Small_1_0"
 				(polyline
 					(pts
-						(xy -19.05 3.81) (xy -7.4075 3.81)
+						(xy -10.16 1.27) (xy -4.064 1.27)
 					)
 					(stroke
 						(width 0)
@@ -318,71 +318,11 @@
 				)
 				(polyline
 					(pts
-						(xy -8.7175 1.541) (xy -7.3729 0.7647)
+						(xy -2.1514 3.0126) (xy -3.6635 0.3936) (xy -4.3358 0.7817) (xy -2.8237 3.4007) (xy -2.1514 3.0126)
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.3729 0.7647) (xy -4.3487 6.0028)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.6933 6.7791) (xy -8.7175 1.541)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.3487 6.0028) (xy -5.6933 6.7791)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.7763 -6.7866) (xy -0.7763 -12.8349)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.7763 -12.8349) (xy 0.7763 -12.8349)
-					)
-					(stroke
-						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -390,7 +330,7 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 18.5737)
+					(radius 9.2869)
 					(stroke
 						(width 0)
 						(type solid)
@@ -401,7 +341,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -12.8349) (xy 0 -19.05)
+						(xy 0 -6.4175) (xy 0 -10.16)
 					)
 					(stroke
 						(width 0)
@@ -413,7 +353,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.7763 -6.7866) (xy -0.7763 -6.7866)
+						(xy 0.4111 -6.4063) (xy -0.3652 -6.4063) (xy -0.3652 -3.3821) (xy 0.4111 -3.3821) (xy 0.4111 -6.4063)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.27) (xy 10.16 1.27)
 					)
 					(stroke
 						(width 0)
@@ -425,104 +377,44 @@
 				)
 				(polyline
 					(pts
-						(xy 0.7763 -12.8349) (xy 0.7763 -6.7866)
+						(xy 4.3817 0.7817) (xy 3.7094 0.3936) (xy 2.1973 3.0126) (xy 2.8696 3.4007) (xy 4.3817 0.7817)
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.3487 6.0028) (xy 7.3729 0.7647)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.6933 6.7791) (xy 4.3487 6.0028)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.3729 0.7647) (xy 8.7175 1.541)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.4075 3.81) (xy 19.05 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.7175 1.541) (xy 5.6933 6.7791)
-					)
-					(stroke
-						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "3PinMainsPowerSocket_1_1"
-				(text "Live"
-					(at -9.398 5.334 0)
+			(symbol "3PinMainsPowerSocket_Small_1_1"
+				(text "L"
+					(at -4.826 2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "Earth"
-					(at 4.064 -12.192 0)
+				(text "E"
+					(at 1.524 -6.35 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "Neutral"
-					(at 10.922 5.08 0)
+				(text "N"
+					(at 4.826 2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(pin power_in line
-					(at -21.59 3.81 0)
+				(pin power_out line
+					(at -12.7 1.27 0)
 					(length 2.54)
 					(name "Live"
 						(effects
@@ -540,7 +432,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -21.59 90)
+					(at 0 -12.7 90)
 					(length 2.54)
 					(name "Earth"
 						(effects
@@ -557,8 +449,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 21.59 3.81 180)
+				(pin power_out line
+					(at 12.7 1.27 180)
 					(length 2.54)
 					(name "Neutral"
 						(effects
@@ -728,6 +620,271 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PumpMonitorCustom:MainPCB"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.27)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#MOD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Main PCB"
+				(at -22.86 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Symbol that represents the main PCB of the pump monitor (used to show alternate wiring)."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MainPCB_0_1"
+				(rectangle
+					(start -22.86 -2.54)
+					(end 22.86 -22.86)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MainPCB_1_1"
+				(polyline
+					(pts
+						(xy -22.86 -5.08) (xy -22.86 -4.445) (xy -22.225 -4.445) (xy -21.59 -5.08) (xy -22.225 -5.715)
+						(xy -22.86 -5.715) (xy -22.86 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 114 86 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -10.16) (xy -22.86 -9.525) (xy -22.225 -9.525) (xy -21.59 -10.16) (xy -22.225 -10.795)
+						(xy -22.86 -10.795) (xy -22.86 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 114 86 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -15.24) (xy -22.86 -14.605) (xy -22.225 -14.605) (xy -21.59 -15.24) (xy -22.225 -15.875)
+						(xy -22.86 -15.875) (xy -22.86 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 114 86 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 -7.62) (xy -21.59 -6.985) (xy -22.225 -6.985) (xy -22.86 -7.62) (xy -22.225 -8.255)
+						(xy -21.59 -8.255) (xy -21.59 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 114 86 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 -12.7) (xy -21.59 -12.065) (xy -22.225 -12.065) (xy -22.86 -12.7) (xy -22.225 -13.335)
+						(xy -21.59 -13.335) (xy -21.59 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 114 86 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 -17.78) (xy -21.59 -17.145) (xy -22.225 -17.145) (xy -22.86 -17.78) (xy -22.225 -18.415)
+						(xy -21.59 -18.415) (xy -21.59 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 114 86 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -5.08 0)
+					(length 0)
+					(name "Live_in"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -22.86 -7.62 0)
+					(length 0)
+					(name "Live_out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -10.16 0)
+					(length 0)
+					(name "Neutral_in"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -22.86 -12.7 0)
+					(length 0)
+					(name "Neutral_out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -15.24 0)
+					(length 0)
+					(name "Earth"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -17.78 0)
+					(length 0)
+					(name "Earth"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1209,7 +1366,7 @@
 	)
 	(text "DRAFT"
 		(exclude_from_sim no)
-		(at 232.918 145.796 0)
+		(at 146.304 182.88 0)
 		(effects
 			(font
 				(size 10 10)
@@ -1217,10 +1374,32 @@
 		)
 		(uuid "293cb31e-c6be-49e1-94d0-d37e9b02f45d")
 	)
-	(text_box "For loads with lower power requirements, the #K1 and #CB1 may be omitted and the live output pin of the PCB used to directly control the load. Follow the blue dotted lines."
+	(text "Option 2: Using the internal relay for smaller loads"
 		(exclude_from_sim no)
-		(at 163.83 123.19 0)
-		(size 38.1 13.97)
+		(at 163.576 27.432 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "7ccac3e6-e9b8-4912-82a6-353d67ae0f06")
+	)
+	(text "Option 1: Contactor for larger, inductive loads"
+		(exclude_from_sim no)
+		(at 20.066 27.432 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "e758ad5d-f026-41da-9e8e-cad6d5d4f283")
+	)
+	(text_box "When switching larger or inductive loads, it is recommended to use the relay on the PCB to switch a larger contacter (shown in option 1) rather than directly controlling the load (shown in option 2)."
+		(exclude_from_sim no)
+		(at 177.8 156.21 0)
+		(size 105.41 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1237,561 +1416,633 @@
 		)
 		(uuid "a62ed6c1-4132-4343-8cae-83374a9ac037")
 	)
-	(text_box "TODO: Fix U1 not measuring pump current when using a contactor.\n\n- Fix up the wiring diagram after adding neutral current sensing."
-		(exclude_from_sim no)
-		(at 177.8 68.58 0)
-		(size 52.07 19.05)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "bea870a3-9d60-4a77-b072-3c641b56bf31")
-	)
-	(text_box "TODO: Check if the contactor is rated to switch live and neutral in the one switch."
-		(exclude_from_sim no)
-		(at 88.9 125.73 0)
-		(size 27.94 13.97)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d64ecd72-44c0-4384-951b-8aa42465390a")
-	)
 	(junction
-		(at 133.35 119.38)
-		(diameter 0)
-		(color 0 0 194 1)
-		(uuid "1eb78e76-3e8e-4351-8e8a-2260b929adce")
-	)
-	(junction
-		(at 95.25 119.38)
-		(diameter 0)
-		(color 0 0 194 1)
-		(uuid "216edfb0-95a9-4c06-badf-ed0a5167574d")
-	)
-	(junction
-		(at 123.19 119.38)
-		(diameter 0)
-		(color 0 0 194 1)
-		(uuid "2c414dcc-74cc-4868-a51a-bfb7389f627a")
-	)
-	(junction
-		(at 110.49 96.52)
+		(at 49.53 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ee4a67d-4476-46f4-a7bf-8b34cf96c06d")
+		(uuid "33cb3929-7408-42bc-bece-d9c9369b9d8f")
 	)
 	(junction
-		(at 110.49 76.2)
-		(diameter 0)
-		(color 0 0 194 1)
-		(uuid "8c3c3e49-9332-4ada-bc95-d8dc89bba438")
-	)
-	(junction
-		(at 120.65 93.98)
+		(at 57.15 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "baea1d32-f135-4390-b804-94751a8eab71")
+		(uuid "3e7a2b1e-f47b-4ce3-bdd7-256a8731e899")
 	)
 	(junction
-		(at 113.03 96.52)
+		(at 95.25 96.52)
 		(diameter 0)
-		(color 0 0 194 1)
-		(uuid "cede9bf5-faef-4919-897a-c56cb64c397a")
+		(color 0 0 0 0)
+		(uuid "59680258-0f7c-4e24-a590-236e6e83e31f")
 	)
 	(junction
-		(at 133.35 99.06)
+		(at 46.99 91.44)
 		(diameter 0)
-		(color 0 0 194 1)
-		(uuid "f99f5872-11e1-4afd-a6e6-b753e59da232")
+		(color 0 0 0 0)
+		(uuid "a159f154-a21a-439a-9c9f-498faea0f47b")
 	)
 	(wire
 		(pts
-			(xy 110.49 78.74) (xy 110.49 76.2)
+			(xy 46.99 88.9) (xy 46.99 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "011b62f5-4b52-46fa-b9da-61a0097e1717")
+		(uuid "045702fc-f0fd-49b0-8553-b6e5eb17361d")
 	)
 	(wire
 		(pts
-			(xy 156.21 109.22) (xy 156.21 180.34)
+			(xy 222.25 104.14) (xy 224.79 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1275b543-207c-4784-b247-e1d6f3056282")
+		(uuid "111beecb-28e5-4189-b319-eaa4b4bfdef7")
 	)
 	(wire
 		(pts
-			(xy 95.25 99.06) (xy 95.25 119.38)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 194 1)
-		)
-		(uuid "25b7bb17-0c37-4740-81a9-2b50482b4bc5")
-	)
-	(wire
-		(pts
-			(xy 133.35 99.06) (xy 95.25 99.06)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 194 1)
-		)
-		(uuid "275250df-6b8e-4aef-9d3d-0b395b1d698c")
-	)
-	(wire
-		(pts
-			(xy 95.25 119.38) (xy 39.37 119.38)
+			(xy 57.15 91.44) (xy 102.87 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e0b94db-3a71-48c6-9b0a-3d91c3d303ad")
+		(uuid "18475031-be31-4c14-b825-425a3b2a561c")
 	)
 	(wire
 		(pts
-			(xy 110.49 76.2) (xy 113.03 76.2)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 194 1)
-		)
-		(uuid "3050f474-da00-4a02-bc60-cad46b6d5eea")
-	)
-	(wire
-		(pts
-			(xy 113.03 116.84) (xy 113.03 119.38)
+			(xy 222.25 130.81) (xy 222.25 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "433dfa02-f012-4668-8bba-0192de25715c")
+		(uuid "1be952ce-10a2-4fac-a5f2-021ea874a814")
 	)
 	(wire
 		(pts
-			(xy 156.21 180.34) (xy 63.5 180.34)
+			(xy 184.15 114.3) (xy 186.69 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47187284-29a2-4796-8cd9-62308d585a28")
+		(uuid "1d7cd064-8500-4fca-815f-0da71d3252ee")
 	)
 	(wire
 		(pts
-			(xy 123.19 152.4) (xy 85.09 152.4)
+			(xy 64.77 158.75) (xy 100.33 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4904ad04-d47b-4fa8-8520-5f0585d18946")
+		(uuid "314e3e56-73cd-4c61-bb81-995c9292460a")
 	)
 	(wire
 		(pts
-			(xy 133.35 116.84) (xy 133.35 119.38)
+			(xy 219.71 99.06) (xy 219.71 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51450311-0f8f-420a-a0c7-b69db0934229")
+		(uuid "31ad08ed-8a7f-4936-89ac-fd6efa70e17e")
 	)
 	(wire
 		(pts
-			(xy 39.37 152.4) (xy 41.91 152.4)
+			(xy 186.69 72.39) (xy 184.15 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "523d3848-ee27-4f8d-a7c0-e49729cbdd8d")
+		(uuid "33c4b6a1-fd68-47cb-9e57-212991f683f8")
 	)
 	(wire
 		(pts
-			(xy 87.63 88.9) (xy 39.37 88.9)
+			(xy 95.25 53.34) (xy 95.25 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "567d9c72-24b1-499e-ae56-c16ba14ce1e8")
+		(uuid "389e2003-7034-4475-86d6-36091f659a2e")
 	)
 	(wire
 		(pts
-			(xy 120.65 58.42) (xy 120.65 93.98)
+			(xy 212.09 72.39) (xy 217.17 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5765dcab-8f78-410a-a043-c2549e45454b")
+		(uuid "3c8b2755-2a57-4179-ad8f-d2603168537b")
 	)
 	(wire
 		(pts
-			(xy 158.75 101.6) (xy 153.67 101.6)
+			(xy 62.23 69.85) (xy 62.23 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a269917-996d-45b9-bb65-c7c2e9f8ccf7")
+		(uuid "42d272d1-28a5-4ebb-ab76-d828b155e792")
 	)
 	(wire
 		(pts
-			(xy 151.13 119.38) (xy 151.13 104.14)
+			(xy 49.53 53.34) (xy 46.99 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e58f453-4838-4d9e-aa1b-4c9264d3702f")
+		(uuid "456f440f-f724-4949-9c84-ccf1160b67a2")
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 158.75 96.52)
+			(xy 49.53 142.24) (xy 52.07 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f88e8cb-6910-474c-bf83-d62971ebe213")
+		(uuid "4bf6aee9-4e7a-4e0c-aaa0-9d2a1855d71d")
 	)
 	(wire
 		(pts
-			(xy 63.5 86.36) (xy 63.5 83.82)
+			(xy 102.87 101.6) (xy 100.33 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71e8e6f5-c5a7-48a6-81ab-058329fef551")
+		(uuid "570bca73-5b97-48d1-bf79-84389c13c8cc")
 	)
 	(wire
 		(pts
-			(xy 110.49 96.52) (xy 110.49 101.6)
+			(xy 46.99 91.44) (xy 46.99 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78579d6a-c2eb-46ba-a467-e96c9fa4f3be")
+		(uuid "59f653bd-bcbb-4a1b-9491-2748ef3082e7")
 	)
 	(wire
 		(pts
-			(xy 110.49 76.2) (xy 87.63 76.2)
+			(xy 222.25 101.6) (xy 222.25 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79110964-a457-4153-a877-ebccd5eb9ece")
+		(uuid "5a30464a-1d83-48b6-bd02-0e1f6129895e")
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 133.35 101.6)
+			(xy 74.93 53.34) (xy 95.25 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f70cd0b-1831-486f-ad1f-938e165852c5")
+		(uuid "67503292-0c97-40ff-b425-9e57c45b1a76")
 	)
 	(wire
 		(pts
-			(xy 39.37 88.9) (xy 39.37 58.42)
+			(xy 219.71 114.3) (xy 212.09 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8276803a-2e4c-433b-bacc-013aea6915bf")
+		(uuid "6d1cd277-6898-4dd7-bceb-a8e78cc0ad20")
 	)
 	(wire
 		(pts
-			(xy 151.13 104.14) (xy 158.75 104.14)
+			(xy 224.79 101.6) (xy 222.25 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "839e8a01-6d43-4291-b7a6-05323a8399dc")
+		(uuid "70ea30b8-7791-4134-b7ad-64f13988b40f")
 	)
 	(wire
 		(pts
-			(xy 153.67 101.6) (xy 153.67 93.98)
+			(xy 95.25 114.3) (xy 69.85 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91b4f72b-3c59-4a2a-9a5e-dfb92696d727")
+		(uuid "723be1b6-6bc1-4266-8b6c-7cac980c2951")
 	)
 	(wire
 		(pts
-			(xy 158.75 99.06) (xy 133.35 99.06)
+			(xy 222.25 88.9) (xy 199.39 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9309d336-d061-4181-83de-efc1275a50b5")
+		(uuid "7ad12abf-4cc0-4baa-8d54-827d9eb4bafa")
 	)
 	(wire
 		(pts
-			(xy 158.75 109.22) (xy 156.21 109.22)
+			(xy 199.39 130.81) (xy 222.25 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9be92cd0-f5f0-4122-9841-69857890cf84")
+		(uuid "7be4a743-306d-406a-9a55-b048fdf73571")
 	)
 	(wire
 		(pts
-			(xy 158.75 106.68) (xy 156.21 106.68)
+			(xy 199.39 128.27) (xy 199.39 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e4af6b6-a8f6-4222-afc8-3c5b495f0bcf")
+		(uuid "7e27bf5e-878d-43cc-a486-6cd81adaa2e1")
 	)
 	(wire
 		(pts
-			(xy 156.21 60.96) (xy 85.09 60.96)
+			(xy 100.33 69.85) (xy 62.23 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2b62da2-6b36-415c-9c9d-81d43999d173")
+		(uuid "7f5d6745-4020-47eb-a0a7-410a5f91eb3d")
 	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 153.67 93.98)
+			(xy 49.53 114.3) (xy 49.53 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a58a0d87-c6e6-4b35-83e6-8303b345b214")
+		(uuid "802b6141-d826-41f2-81f9-d9ef9335211b")
 	)
 	(wire
 		(pts
-			(xy 156.21 106.68) (xy 156.21 60.96)
+			(xy 57.15 91.44) (xy 57.15 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8cea25c-ce8a-48a3-a7ba-12a56e1d306c")
+		(uuid "8f81e0fc-8d1e-47fd-8fb8-7b14898b667d")
 	)
 	(wire
 		(pts
-			(xy 87.63 76.2) (xy 87.63 88.9)
+			(xy 64.77 156.21) (xy 64.77 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aab72dd0-2048-4924-9521-eafccf52ed75")
+		(uuid "94eae97a-2560-4fa3-b06c-51afd4b91613")
 	)
 	(wire
 		(pts
-			(xy 63.5 180.34) (xy 63.5 177.8)
+			(xy 100.33 158.75) (xy 100.33 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac235ac4-89a2-4d18-9925-0bf20bf094c4")
+		(uuid "9798e8a8-ee2d-4f2c-aefe-580ccd57ccf0")
 	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 120.65 101.6)
+			(xy 49.53 114.3) (xy 59.69 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad57a032-d2f7-4a9c-931f-c9af41cb6f4c")
+		(uuid "9b2bea6c-7932-4493-af32-433fdd09ae4a")
 	)
 	(wire
 		(pts
-			(xy 123.19 119.38) (xy 133.35 119.38)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 194 1)
-		)
-		(uuid "aed76a3a-3e67-4de2-bac1-aa7c398e4831")
-	)
-	(wire
-		(pts
-			(xy 85.09 60.96) (xy 85.09 86.36)
+			(xy 199.39 88.9) (xy 199.39 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7e34a05-d991-4a34-8831-34fe442ff186")
+		(uuid "9d0b590b-b322-42af-a728-d599ae6552b1")
+	)
+	(polyline
+		(pts
+			(xy 161.29 21.59) (xy 161.29 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a037defc-dee7-4374-93cb-bda446f7582b")
 	)
 	(wire
 		(pts
-			(xy 110.49 96.52) (xy 113.03 96.52)
+			(xy 184.15 93.98) (xy 184.15 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0229b15-3f5c-4bcc-b542-cd6c116d2729")
+		(uuid "a05b2358-188e-40a4-9e2e-cbd2b8cdb97b")
 	)
 	(wire
 		(pts
-			(xy 110.49 93.98) (xy 110.49 96.52)
+			(xy 102.87 99.06) (xy 97.79 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0cb7f1d-146c-4c93-b7c1-c8b9bacb59f6")
+		(uuid "a8e2004d-cbb4-4afb-9aa8-9f86386b322b")
 	)
 	(wire
 		(pts
-			(xy 39.37 119.38) (xy 39.37 152.4)
+			(xy 184.15 72.39) (xy 184.15 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4510c91-7d91-4956-8ad3-1f8c25abfac0")
+		(uuid "ab4fbd66-a08c-4d02-a918-df88e3cda8d4")
 	)
 	(wire
 		(pts
-			(xy 133.35 119.38) (xy 151.13 119.38)
+			(xy 69.85 93.98) (xy 69.85 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4dac321-290d-462a-8ea7-c30ad309b095")
+		(uuid "ac7bffdc-a1e1-452e-adf8-a17507d18732")
 	)
 	(wire
 		(pts
-			(xy 123.19 119.38) (xy 123.19 152.4)
+			(xy 49.53 114.3) (xy 49.53 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7add61a-cddd-4129-ac9c-0523fe0067db")
+		(uuid "af13a7f0-675a-42b3-8837-711c271a9627")
 	)
 	(wire
 		(pts
-			(xy 85.09 86.36) (xy 63.5 86.36)
+			(xy 100.33 101.6) (xy 100.33 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c969ef27-4381-4580-9762-249ef232421b")
+		(uuid "b2121b51-4043-443d-89dc-4ac311861446")
 	)
 	(wire
 		(pts
-			(xy 39.37 58.42) (xy 41.91 58.42)
+			(xy 184.15 91.44) (xy 224.79 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cde205f0-a754-490b-a1c4-2d6c51eb87b1")
+		(uuid "b56f347f-2308-4a76-822d-8f9133d8e49c")
 	)
 	(wire
 		(pts
-			(xy 123.19 116.84) (xy 123.19 119.38)
+			(xy 217.17 72.39) (xy 217.17 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf2e54f6-7bd1-4b09-b489-15cdb4bb0154")
+		(uuid "c21f8d15-e96b-4d31-8008-5671f54dbfe4")
 	)
 	(wire
 		(pts
-			(xy 85.09 58.42) (xy 120.65 58.42)
+			(xy 224.79 99.06) (xy 219.71 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfc7ff25-f8f9-4de6-9410-e3cccc3744b6")
+		(uuid "d2d31ade-e74c-4e69-aa83-33d9d93de0d2")
 	)
 	(wire
 		(pts
-			(xy 113.03 119.38) (xy 95.25 119.38)
+			(xy 46.99 91.44) (xy 57.15 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc540982-acc1-4d34-bf36-16cdcbeda7a5")
+		(uuid "e240f31c-1bfc-4534-9aa0-85446346708a")
 	)
 	(wire
 		(pts
-			(xy 113.03 76.2) (xy 113.03 96.52)
+			(xy 97.79 99.06) (xy 97.79 142.24)
 		)
 		(stroke
 			(width 0)
-			(type dot)
-			(color 0 0 194 1)
+			(type default)
 		)
-		(uuid "f02b62ad-1a56-48e3-9e03-aada1bbdc4e4")
+		(uuid "e50524d9-64f1-4be4-a202-339665a88218")
+	)
+	(wire
+		(pts
+			(xy 59.69 111.76) (xy 59.69 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78e3cc7-13c2-499c-8f8d-a57054ba322e")
+	)
+	(wire
+		(pts
+			(xy 100.33 104.14) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4d9efe-e98d-4fd3-a12d-047d29edcc41")
+	)
+	(wire
+		(pts
+			(xy 184.15 93.98) (xy 224.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edfe738e-d7c7-4ad1-a3e3-666a3d10c62b")
+	)
+	(wire
+		(pts
+			(xy 217.17 96.52) (xy 224.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef76f41c-efca-4682-a8c9-29e061a06bc8")
+	)
+	(wire
+		(pts
+			(xy 95.25 96.52) (xy 102.87 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d207f9-e093-40fe-be1c-52f1e2463909")
+	)
+	(wire
+		(pts
+			(xy 95.25 96.52) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36eaa84-874c-4406-ae68-ac1945e41108")
+	)
+	(wire
+		(pts
+			(xy 102.87 93.98) (xy 69.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43ebcac-2768-49f6-8c5a-c36c36903a41")
+	)
+	(wire
+		(pts
+			(xy 69.85 114.3) (xy 69.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c1f1b9-3da9-4669-baf6-8806736cdb76")
+	)
+	(wire
+		(pts
+			(xy 97.79 142.24) (xy 77.47 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99a49e5-83e3-4506-8538-93fb45899891")
+	)
+	(wire
+		(pts
+			(xy 46.99 53.34) (xy 46.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa798c51-0c22-43bb-ba22-d977794d634d")
 	)
 	(symbol
-		(lib_id "Device:CircuitBreaker_1P")
-		(at 110.49 86.36 0)
+		(lib_id "AustralianPowerpoints:3PinMainsPowerPlug_Small")
+		(at 62.23 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02beb3a1-bfb1-493d-9dbc-cc8b07263f2a")
+		(property "Reference" "#J1"
+			(at 62.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A mains plug"
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e2b38b8b-38c9-4588-be13-4f81644313aa")
+		)
+		(pin "1"
+			(uuid "a9d999bf-dd18-4575-96a7-4e6d752ac351")
+		)
+		(pin "2"
+			(uuid "2d4c2c53-e575-42c7-a675-4574c16dcb98")
+		)
+		(instances
+			(project ""
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2"
+					(reference "#J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:CircuitBreaker_1P")
+		(at 46.99 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09b0127f-31b0-4807-a25b-d843f0960a32")
 		(property "Reference" "#CB1"
-			(at 106.68 85.0899 0)
+			(at 43.18 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +2051,7 @@
 			)
 		)
 		(property "Value" "10A Circuit breaker"
-			(at 106.68 87.6299 0)
+			(at 43.18 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +2060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 86.36 0)
+			(at 46.99 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +2069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 86.36 0)
+			(at 46.99 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +2078,7 @@
 			)
 		)
 		(property "Description" "Single pole circuit breaker"
-			(at 110.49 86.36 0)
+			(at 46.99 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,33 +2102,36 @@
 		)
 	)
 	(symbol
-		(lib_id "AustralianPowerpoints:3PinMainsPowerSocket")
-		(at 63.5 156.21 0)
+		(lib_id "PumpMonitorCustom:MainPCB")
+		(at 247.65 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d036c82-9148-43e6-bb78-72ba25530e89")
-		(property "Reference" "#J2"
-			(at 63.5 133.35 0)
+		(uuid "25715dbb-81c1-4cb4-8eb2-dfd459038756")
+		(property "Reference" "#MOD1"
+			(at 247.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "10A mains socket"
-			(at 63.5 135.89 0)
+		(property "Value" "Main PCB"
+			(at 224.79 87.63 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 156.21 0)
+			(at 247.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +2140,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 156.21 0)
+			(at 247.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Symbol that represents the main PCB of the pump monitor (used to show alternate wiring)."
+			(at 247.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d576b73e-dd9a-4981-a49d-6634f98b0ccc")
+		)
+		(pin "4"
+			(uuid "99d3c7ce-d350-4413-9664-fce62b765d0b")
+		)
+		(pin "6"
+			(uuid "804548b5-b561-493f-a607-205c48e52e93")
+		)
+		(pin "3"
+			(uuid "6baf5f5f-b326-49bd-8eaa-59b2d82165fd")
+		)
+		(pin "5"
+			(uuid "2eb912be-96cf-44a5-8150-e64cf0c6dc0d")
+		)
+		(pin "2"
+			(uuid "a50c0928-973b-49a0-9307-7e3346e1f006")
+		)
+		(instances
+			(project ""
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2"
+					(reference "#MOD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AustralianPowerpoints:3PinMainsPowerPlug_Small")
+		(at 199.39 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5edd6ed9-9b59-4fef-a977-d67a0405a995")
+		(property "Reference" "#J3"
+			(at 199.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A mains plug"
+			(at 199.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +2229,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 156.21 0)
+			(at 199.39 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1903,19 +2237,19 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "8757dc01-3132-492c-85fc-e8d9cda98639")
-		)
 		(pin "3"
-			(uuid "01c0523e-0da8-4c0a-9893-4d40b0c4a1f7")
+			(uuid "dee699b0-a507-4b26-bcb6-fce5510141dd")
 		)
 		(pin "1"
-			(uuid "8d179627-152e-4f30-afed-2087680362d4")
+			(uuid "bb20930c-5a46-4d04-adec-a0cac52f01e3")
+		)
+		(pin "2"
+			(uuid "f74f1ae7-a5c2-465c-a8eb-b601495cb143")
 		)
 		(instances
-			(project ""
+			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2"
-					(reference "#J2")
+					(reference "#J3")
 					(unit 1)
 				)
 			)
@@ -1923,17 +2257,17 @@
 	)
 	(symbol
 		(lib_id "Relay:Relay_DPST-NO")
-		(at 123.19 109.22 0)
+		(at 59.69 104.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f91af90-fddc-4035-9278-3d44f968bf11")
 		(property "Reference" "#K1"
-			(at 106.68 107.9499 0)
+			(at 43.18 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +2276,7 @@
 			)
 		)
 		(property "Value" "Contactor"
-			(at 106.68 110.4899 0)
+			(at 43.18 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +2285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 110.49 0)
+			(at 43.18 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 109.22 0)
+			(at 59.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +2304,7 @@
 			)
 		)
 		(property "Description" "Relay DPST, monostable, normally open, EN50005"
-			(at 123.19 109.22 0)
+			(at 59.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,25 +2340,24 @@
 		)
 	)
 	(symbol
-		(lib_id "AustralianPowerpoints:3PinMainsPowerPlug")
-		(at 63.5 62.23 0)
+		(lib_id "AustralianPowerpoints:3PinMainsPowerSocket_Small")
+		(at 64.77 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6a171a4-3639-4630-9efa-e8e6bbe6f794")
-		(property "Reference" "#J1"
-			(at 63.5 39.37 0)
+		(uuid "832d2d17-14e0-4d1d-a87b-c02d5fa88eab")
+		(property "Reference" "#J2"
+			(at 64.77 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10A mains plug"
-			(at 63.5 41.91 0)
+		(property "Value" "10A mains socket"
+			(at 64.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +2365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 62.23 0)
+			(at 64.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 62.23 0)
+			(at 64.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 62.23 0)
+			(at 64.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,26 +2392,96 @@
 			)
 		)
 		(pin "3"
-			(uuid "2bc2c2c3-a3ef-481f-a438-0edaee063318")
+			(uuid "d6eacc7a-65a5-4b3b-b967-def86d35acbe")
 		)
 		(pin "1"
-			(uuid "0d09c2df-ff08-443d-b274-d54bbfbb48a1")
+			(uuid "43a64d1b-d582-44b6-97a4-b1c145f97eca")
 		)
 		(pin "2"
-			(uuid "fa24023c-2716-4ebc-9101-44a0ecb5f0f5")
+			(uuid "4413d68a-951b-4223-b7db-366c0a845044")
 		)
 		(instances
 			(project ""
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2"
-					(reference "#J1")
+					(reference "#J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AustralianPowerpoints:3PinMainsPowerSocket_Small")
+		(at 199.39 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e884e2e0-5d79-4890-9c1b-e018d00d764f")
+		(property "Reference" "#J4"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A mains socket"
+			(at 199.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "94cd336e-0012-4a31-b358-4b5ebd227253")
+		)
+		(pin "1"
+			(uuid "693cf77c-1948-4a1a-bf9b-6250966ce15a")
+		)
+		(pin "2"
+			(uuid "7080760e-cd53-4329-b026-397dbaf4955d")
+		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2"
+					(reference "#J4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 158.75 93.98)
-		(size 57.15 21.59)
+		(at 102.87 88.9)
+		(size 45.72 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2093,7 +2496,7 @@
 		)
 		(uuid "519408a1-89cc-4bd2-9b7b-cb03d2ff4d33")
 		(property "Sheetname" "Main PCB"
-			(at 158.75 93.2684 0)
+			(at 102.87 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2505,7 @@
 			)
 		)
 		(property "Sheetfile" "MainPCB.kicad_sch"
-			(at 158.75 116.1546 0)
+			(at 102.87 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2514,7 @@
 			)
 		)
 		(pin "Earth" output
-			(at 158.75 109.22 180)
+			(at 102.87 104.14 180)
 			(uuid "eafbfb08-563c-4218-b4a9-24b3cb5b8e58")
 			(effects
 				(font
@@ -2121,7 +2524,7 @@
 			)
 		)
 		(pin "Live out" output
-			(at 158.75 99.06 180)
+			(at 102.87 93.98 180)
 			(uuid "0ab75357-b15a-4fb8-acd9-2afb9bb7d63a")
 			(effects
 				(font
@@ -2131,7 +2534,7 @@
 			)
 		)
 		(pin "Earth" input
-			(at 158.75 106.68 180)
+			(at 102.87 101.6 180)
 			(uuid "0ad277eb-ee1a-40f0-898e-bf35c2adc1dd")
 			(effects
 				(font
@@ -2141,7 +2544,7 @@
 			)
 		)
 		(pin "Live in" input
-			(at 158.75 96.52 180)
+			(at 102.87 91.44 180)
 			(uuid "ce964efe-07ef-4b6a-afd8-d16833ea4453")
 			(effects
 				(font
@@ -2151,7 +2554,7 @@
 			)
 		)
 		(pin "Neutral in" input
-			(at 158.75 101.6 180)
+			(at 102.87 96.52 180)
 			(uuid "daeedf61-c9ad-48da-8d9e-97066c0f58fe")
 			(effects
 				(font
@@ -2161,7 +2564,7 @@
 			)
 		)
 		(pin "Neutral out" output
-			(at 158.75 104.14 180)
+			(at 102.87 99.06 180)
 			(uuid "34742277-d1db-4756-ba75-6013da25bd6f")
 			(effects
 				(font

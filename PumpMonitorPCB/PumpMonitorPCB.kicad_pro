@@ -462,7 +462,8 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "PumpMonitorCustom"
+      "PumpMonitorCustom",
+      "AustralianPowerpoints"
     ]
   },
   "meta": {

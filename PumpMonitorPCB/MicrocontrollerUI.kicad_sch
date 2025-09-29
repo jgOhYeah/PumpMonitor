@@ -5961,7 +5961,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "39b5685a-8a8e-42aa-b24f-7175d0b28a66")
+			(uuid "081ba26a-5837-442b-b2d6-d5494d2fdbea")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6027,7 +6027,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "448e65bd-3829-4da7-83d3-618fdcf6cda8")
+			(uuid "85b5f900-fdf8-4761-8f57-b494851c2e66")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6093,7 +6093,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7dfee9b4-e31e-4a1f-8fb1-5d084a43c448")
+			(uuid "8b012022-8fcd-4768-aa28-bf291c033254")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6196,10 +6196,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f9bc702b-604e-4c64-99b9-c1ee396d0c17")
+			(uuid "fd355c92-6ae6-435a-acf6-718d5fb8236c")
 		)
 		(pin "1"
-			(uuid "ceb8d56b-ca14-42d9-bd94-d09d0c5a9ece")
+			(uuid "685a60a3-cd4d-4261-876d-99becc0e7ccc")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6265,7 +6265,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3566a6e8-8235-4812-99a2-2ec19376e729")
+			(uuid "dc37afd1-ebf7-4612-919f-2dde7b2900a3")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6332,10 +6332,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca13872e-9953-46d9-b48f-061918c83d31")
+			(uuid "28262796-a16f-43a6-ac1e-03e11bbdbd07")
 		)
 		(pin "2"
-			(uuid "29b3e4d0-aa92-43b1-82b3-1d370040a127")
+			(uuid "859b9bf5-b2c2-46ad-b1b3-926e9e156938")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6438,10 +6438,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "040ea80d-2d9d-47e7-8750-f29c6a7249f1")
+			(uuid "c58e886b-f670-4838-ba3e-dbaa8ec53f39")
 		)
 		(pin "2"
-			(uuid "158defeb-f86d-481f-bf22-27e0a46b5ad3")
+			(uuid "a635d5f2-3cf0-4165-b3f5-95e314212e42")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6508,21 +6508,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "c33d5e3d-6d8e-4b5a-977b-6e83e570f0bf")
+			(uuid "c7285f76-935d-481b-9edc-8bdfc2cee864")
 		)
 		(pin "1"
-			(uuid "1f4ae659-550b-4376-a4fb-7da8a08f1810")
+			(uuid "c8d5b6de-88ad-4c17-a6c8-7f1f021752d7")
 		)
 		(pin "2"
-			(uuid "f9cb884c-34d6-4270-921a-0bbcdc3c68f9")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "RV1")
-					(unit 1)
-				)
-			)
+			(uuid "ba449658-5f52-4529-ae2c-7be4abd8262a")
 		)
 	)
 	(symbol
@@ -6580,7 +6572,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7e19039-65b2-440a-ab27-2e3de833d13b")
+			(uuid "eef4573a-6670-40fb-99d2-9c3bc8b5db52")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6647,10 +6639,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "931fca75-2d05-4cb0-91e1-b6b144ed0b95")
+			(uuid "01067259-ad78-4f0d-b95b-cdc35c541653")
 		)
 		(pin "2"
-			(uuid "14b3b0de-7617-47f1-b817-07f4577a9a5d")
+			(uuid "9a9d0b6d-80ff-4fd5-8afe-dfdda192a27e")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6717,10 +6709,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d55397fe-3b0f-4025-b7e4-d108aa0b3a95")
+			(uuid "0a328dcf-4922-416f-b088-2139dc8adae1")
 		)
 		(pin "2"
-			(uuid "98a14a53-7282-4429-8298-3621cf50df36")
+			(uuid "6da97551-624a-472c-9cc4-afc7e9896058")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6787,10 +6779,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e73dac2-c6c7-4e3a-af5a-0f1b1afaca53")
+			(uuid "3b6e7377-e58c-43e3-ac41-b73397d7ded7")
 		)
 		(pin "2"
-			(uuid "c5302aed-cd4e-45e8-b915-b8024dcd6645")
+			(uuid "079f697d-b457-492c-ae27-f716b96fdae6")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6856,7 +6848,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e1dd03a-3b17-4fea-8d19-7568c9e6cec8")
+			(uuid "56dd01bf-0f13-426d-87ff-96b4daa29c3e")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6922,7 +6914,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c39b7d6-ae2d-42f7-a5e7-4381a1ceff56")
+			(uuid "47628d5d-00c0-4820-a762-fc267c739e0c")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -6989,135 +6981,127 @@
 			)
 		)
 		(pin "2"
-			(uuid "be690bf3-d4ed-441e-803d-2f24efdd597b")
+			(uuid "9ec339f6-252c-4f1e-a7e4-defd7d4c5be3")
 		)
 		(pin "41"
-			(uuid "a465b562-560f-4321-bbd5-deaae419bce9")
+			(uuid "5604100a-21a6-4ef6-bffb-963cdd047e5e")
 		)
 		(pin "29"
-			(uuid "355245ee-bfb0-4ba4-b266-94fc957678b3")
+			(uuid "c38afc1b-d497-44e2-8889-b50b5bea95bc")
 		)
 		(pin "40"
-			(uuid "0d9969fb-9c8a-499b-9539-10ae995adc9c")
+			(uuid "b34a2f6e-df54-4cc3-b71b-6f7e2966110a")
 		)
 		(pin "36"
-			(uuid "dbebed2f-6d22-4835-a278-063d494e380f")
+			(uuid "e9f7a9e5-a986-4d91-a0e9-cdda13e38779")
 		)
 		(pin "25"
-			(uuid "c453140d-88fa-449a-91df-80b8fb8d1b50")
+			(uuid "d0a4d591-4e76-4f1b-87b6-b686d8abd315")
 		)
 		(pin "37"
-			(uuid "7147ff38-a22e-4105-ae4a-2f5aa99c7b83")
+			(uuid "51f2e2db-6ab2-4235-b82f-ee3510a771d2")
 		)
 		(pin "38"
-			(uuid "2d74ca70-e8b4-4586-a0df-923a2d5d59e7")
+			(uuid "d2b5f51b-f0c8-47b8-b66e-5e2ad8db45b5")
 		)
 		(pin "39"
-			(uuid "8fdc10ad-e8ff-4496-aa44-6d3047333fae")
+			(uuid "a3411c8e-acfd-4f06-adf7-13c901d26504")
 		)
 		(pin "3"
-			(uuid "c30a6f45-6fc0-4875-a720-95f7579f86fa")
+			(uuid "d64e4923-9c00-4ea7-829b-9b39f0021c1b")
 		)
 		(pin "27"
-			(uuid "a585c8cd-cba4-4211-9a60-7fd21b2b4c4e")
+			(uuid "bf589c20-65ad-468d-822a-ed53a278d952")
 		)
 		(pin "4"
-			(uuid "f1e49964-008b-4cd0-ba32-def65f7767e2")
+			(uuid "22bbca30-2ddc-4add-a9ce-0521fa641525")
 		)
 		(pin "1"
-			(uuid "5d89ccec-7487-4656-a013-7476a73b71a3")
+			(uuid "8dec5798-b1b2-44ec-b784-2569858f222c")
 		)
 		(pin "28"
-			(uuid "b014feae-3a78-4782-9444-3f6f0b77d224")
+			(uuid "3931c5f7-be33-4261-ab83-a21cf507624c")
 		)
 		(pin "15"
-			(uuid "2341dd55-cbf9-4e3b-bbaf-938b62a47230")
+			(uuid "32e3de8d-9605-4f76-b2ad-cd54f47035be")
 		)
 		(pin "24"
-			(uuid "d16c71ea-aade-447e-ac65-1a50291d6f95")
+			(uuid "ecfee2c4-64c4-4266-a583-94a5fb6ebc5e")
 		)
 		(pin "31"
-			(uuid "e0cd2337-70c9-4db4-a725-f09258cf0097")
+			(uuid "ec7ce828-1869-454e-bb3c-85d22b9aa69b")
 		)
 		(pin "32"
-			(uuid "eb2a490e-9bfd-450c-b031-c9608db99b1b")
+			(uuid "833cac20-de89-4190-9276-67e6b3aa8ef6")
 		)
 		(pin "33"
-			(uuid "d8d920c2-bb9f-403a-80d4-52bf24dbe8bf")
+			(uuid "896ae5d7-1d61-4710-bd55-94254d80ba9f")
 		)
 		(pin "34"
-			(uuid "ed9e1484-ad9d-4d8f-8094-ea5f2864bfa5")
+			(uuid "3999ca04-07f5-4c9a-add0-238135f7a7c6")
 		)
 		(pin "35"
-			(uuid "9f52b46a-0f34-49bb-81be-d8c5b3db9432")
+			(uuid "4e055b58-c9dd-4850-b1fc-aa96351479c4")
 		)
 		(pin "26"
-			(uuid "ed3a3f94-5c12-427a-afd8-f0392294dcca")
+			(uuid "ecb3285c-4164-478b-af4e-30639b8330c8")
 		)
 		(pin "16"
-			(uuid "fbd83379-c9c6-44e2-9a76-82fd8474e4af")
+			(uuid "c744d41a-c919-41cf-b0e6-895bc49d590e")
 		)
 		(pin "30"
-			(uuid "932de689-b8bb-4612-9c28-e90b8fadc53a")
+			(uuid "ccc48dbd-56a6-45ed-b503-7e355cf12558")
 		)
 		(pin "10"
-			(uuid "99662a6b-e104-41f6-8209-d878be130990")
+			(uuid "af7141a4-79bb-47d9-89d7-37f70d89e8e2")
 		)
 		(pin "11"
-			(uuid "be592273-832a-45b2-8d02-45fdd276f6f9")
+			(uuid "d3f4a3d6-4850-4ec2-9630-16cb6d65b0e0")
 		)
 		(pin "13"
-			(uuid "f7ad8625-9a70-42aa-bec2-ea3d1fdb6aec")
+			(uuid "6b55e4de-f1bd-4567-8e20-376119c90322")
 		)
 		(pin "14"
-			(uuid "ff9b443a-948f-48ea-85eb-a85eb4492750")
+			(uuid "1a733354-5984-45e1-9baa-c3f85eb7c0b0")
 		)
 		(pin "6"
-			(uuid "238506f0-5e92-4736-8a51-9cd12c43832f")
+			(uuid "35046460-e11e-4207-8b1f-37afd1856020")
 		)
 		(pin "12"
-			(uuid "f138e7c7-6e9c-4b1b-b4f2-70a879fde272")
+			(uuid "2ce30003-573a-46d0-a237-0e014c12a30b")
 		)
 		(pin "23"
-			(uuid "26cbef45-efb5-4ce3-b7fa-aae290df11ab")
+			(uuid "8e6a324a-0ac6-4134-a9fb-cb63086df0f3")
 		)
 		(pin "5"
-			(uuid "3efdb56f-455f-4975-82a7-893b576a3c8e")
+			(uuid "4c583750-6e81-4210-8040-1e5928d162b1")
 		)
 		(pin "20"
-			(uuid "d86120f8-77eb-4586-8fd1-14938b925ca2")
+			(uuid "df3a9d7d-8675-4254-89e5-abc4f0793db9")
 		)
 		(pin "21"
-			(uuid "6ce6fb9f-2cc7-4806-ae76-23fd43b4e715")
+			(uuid "d7a56ae3-ee86-4d0a-bd81-8b4bde5a1149")
 		)
 		(pin "9"
-			(uuid "018c9681-516c-49a5-a6c5-63f56eb4e2a0")
+			(uuid "86b47028-0649-40e2-8196-e6f2e527213a")
 		)
 		(pin "17"
-			(uuid "354fdcd5-45d9-4479-8532-2aaa804a398e")
+			(uuid "7f7539dc-a786-43de-b08b-d397545d96ce")
 		)
 		(pin "18"
-			(uuid "604f8792-bb50-441e-a500-96f7facf8e31")
+			(uuid "aefbb720-35bf-4f67-9b6a-3be3b39bdc37")
 		)
 		(pin "7"
-			(uuid "ea2d10b5-82d6-4d17-af15-86835acf852e")
+			(uuid "8da7f7f1-007c-483e-a7ce-67a1bbea13dc")
 		)
 		(pin "8"
-			(uuid "52f19f55-0084-4883-b758-347dd2670a04")
+			(uuid "fcdbaa9d-bc43-4ecf-a177-5bdf78861aa9")
 		)
 		(pin "19"
-			(uuid "7b320a3a-4af7-4e98-ad05-086dc643809d")
+			(uuid "3e67c418-9c65-4993-bea8-1758f5124a25")
 		)
 		(pin "22"
-			(uuid "509e6bbc-5576-4c3b-b75a-2e8931989456")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "U5")
-					(unit 1)
-				)
-			)
+			(uuid "bda0ebcc-1443-40d6-9403-b56670dd865a")
 		)
 	)
 	(symbol
@@ -7175,7 +7159,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f141a021-955a-48a1-97a0-3ddbfea18118")
+			(uuid "0ef6626e-34e0-48e4-ad5e-4fb7993ff496")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -7242,30 +7226,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "769c9b9a-5302-43c3-9530-f79a7699e238")
+			(uuid "5bde3d71-e87c-464b-bb39-5bf8967e9dd0")
 		)
 		(pin "1"
-			(uuid "154a4a26-ef34-4e7e-92c4-46dfd3b1012d")
+			(uuid "bd450648-f010-4fe3-9a44-01b6dd10770f")
 		)
 		(pin "4"
-			(uuid "c288f471-e065-48d4-8d51-fc7f3bb51acc")
+			(uuid "2ab18389-caac-452f-9dc5-4c3233090e96")
 		)
 		(pin "3"
-			(uuid "4bb6c413-84c5-4110-86ed-aa96b89fefb3")
+			(uuid "da854a23-fc0e-41e8-9345-b3b732730259")
 		)
 		(pin "2"
-			(uuid "fcf3da5a-65ab-4bf4-909b-90e5876f8d2c")
+			(uuid "2ceac7f5-a096-4f91-b324-5472560062fe")
 		)
 		(pin "5"
-			(uuid "eb24375e-cfad-4aee-9005-b490cfb5991a")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "J3")
-					(unit 1)
-				)
-			)
+			(uuid "00ac9a42-9006-4f80-b5d5-3a8c078be73b")
 		)
 	)
 	(symbol
@@ -7323,7 +7299,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f39d949-c575-4ce8-ac24-ae10327c904d")
+			(uuid "969bebb7-a8e4-411d-ab18-c4fc0fe048d8")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -7390,18 +7366,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e71f4c94-0294-40a9-9806-fbb93d80fbf1")
+			(uuid "e5f81cfe-0fc3-49a2-83b2-3464a256f034")
 		)
 		(pin "2"
-			(uuid "e86209d7-87b0-4ea7-a89d-212b8eb76394")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "R14")
-					(unit 1)
-				)
-			)
+			(uuid "552220ad-3edb-43c2-bbf4-1bef8d88cc9e")
 		)
 	)
 	(symbol
@@ -7460,18 +7428,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "cfe6bcc8-c3a1-4f2d-b3ed-a9b8d4c50f11")
+			(uuid "bbce0878-0f2c-4ef1-972c-40ef6b4aafe6")
 		)
 		(pin "1"
-			(uuid "0380d43e-ce70-4f3f-b6cf-c3bea68df428")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "R12")
-					(unit 1)
-				)
-			)
+			(uuid "7eec451b-3f1b-44f3-8d3d-20a494c236df")
 		)
 	)
 	(symbol
@@ -7529,7 +7489,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed048e12-6f4c-47f8-bdf1-c1ffa909b613")
+			(uuid "27e6a5cf-3782-4bc0-99dc-7957bd9af385")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -7595,7 +7555,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6cb0d6a6-2abb-48b6-838d-9bc28f7ae7a3")
+			(uuid "b10f11b2-3403-4e2d-809d-425ac8e13e44")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -7661,7 +7621,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d1e90ed-960b-472a-a261-a215936f217e")
+			(uuid "ddb08119-83cc-460a-9326-ba464dd00ea2")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -7727,7 +7687,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5d082e6-3c61-41ca-a856-7b8f0a3224a3")
+			(uuid "5d5006e9-b80d-467f-a72c-d273f0df9093")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -7793,7 +7753,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "951bb5f4-ab66-4dba-8e1b-4594e281f0ab")
+			(uuid "247e05f5-c2d2-4b81-b36c-8c54d651da7a")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -7859,7 +7819,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "27e2c481-973e-4a59-936a-5d6726c595c2")
+			(uuid "a5db6711-2113-4f08-88fc-55f2db3f752b")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -7925,7 +7885,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "57dc6886-5b8c-453c-bd9e-6cc0015c95ce")
+			(uuid "cb14319a-7b8f-4d73-84d5-10d8de9e5cdc")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -7991,7 +7951,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6bdb950-6d67-441b-b437-562a8540abca")
+			(uuid "7e3f1cac-b5a9-44ab-a7d2-6b240d90de15")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -8094,10 +8054,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "73b10aac-099b-4257-b08f-f465d4393bbf")
+			(uuid "bea45ed9-0b18-4b00-a25c-4349d7d0174b")
 		)
 		(pin "1"
-			(uuid "17c0d032-7680-40b0-8d9e-76889a1ea1d7")
+			(uuid "29de3259-d281-415c-8465-3a0d91db9b8f")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -8163,7 +8123,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f5976f4-8ea8-4ada-af94-2c154cbf914a")
+			(uuid "641d18a1-1e06-47f7-aa06-d6dc0e5f26d4")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -8266,10 +8226,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7c0504b9-aa4b-4443-97f3-0f8d17c48f29")
+			(uuid "ef995404-632b-4da7-9324-7370fa374e93")
 		)
 		(pin "1"
-			(uuid "a4cea971-d5bb-469e-b6b6-5cef327dbc9f")
+			(uuid "2ea5ff0a-595d-42db-ab74-410c11f805d0")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -8335,7 +8295,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "56023a0f-518c-428c-a55d-2d0debf1ee11")
+			(uuid "40459bec-bba6-47a5-ad84-423f60fa4ffa")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -8401,7 +8361,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f871391-dea3-43e1-bd4b-2ec8009817e0")
+			(uuid "0f7ebf27-defd-458b-a64e-7e33d476b7ae")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -8467,7 +8427,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "65f28544-18cc-4a76-ac19-fca22810e047")
+			(uuid "832130e4-1591-40d6-84a1-b1c480c65679")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -8534,18 +8494,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9181d1ba-2b5a-4a9d-9d58-ebaef4ce9e92")
+			(uuid "2eac8397-14c5-4cd0-8d72-60438ac5ab5c")
 		)
 		(pin "2"
-			(uuid "d59499c7-7af2-490c-9046-a37f33c1c8d1")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "R11")
-					(unit 1)
-				)
-			)
+			(uuid "51799f80-5378-4aa6-b84b-1ae45a864f28")
 		)
 	)
 	(symbol
@@ -8603,7 +8555,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "efe1e943-a974-4d0c-8409-5f6ed12f1b67")
+			(uuid "cced24a3-1e2c-439a-b8ea-edcd9a74f883")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -8706,10 +8658,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b003225c-d645-476d-822a-8f8c72462ec9")
+			(uuid "af228fc3-baba-4b35-af2c-70f9fd0d0564")
 		)
 		(pin "2"
-			(uuid "ee29015c-99bb-4717-bdd6-0b86225664d5")
+			(uuid "b39ca567-a607-4d6d-9f49-56edd906c39d")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -8776,60 +8728,52 @@
 			)
 		)
 		(pin "15"
-			(uuid "d51a97d0-7747-46f9-8406-63e367479319")
+			(uuid "4131dc87-fd05-4638-bd07-4f5107949087")
 		)
 		(pin "1"
-			(uuid "7f9a8f78-8350-4d19-a501-3621bee7dc8d")
+			(uuid "c03f7f84-3330-4a93-b179-fbe1c8dfc6cd")
 		)
 		(pin "10"
-			(uuid "93f6c9bc-4ac6-4244-8e08-64295f5e935d")
+			(uuid "b2a5b783-f9d8-4918-a9f2-4b2778dceea6")
 		)
 		(pin "6"
-			(uuid "94662793-6aa7-4cf7-8a22-c735c73eae47")
+			(uuid "51072060-cd21-4427-9373-e2637e9ffebf")
 		)
 		(pin "4"
-			(uuid "6cca79ca-4cbc-42ea-b1b4-971f83219605")
+			(uuid "fceb93a1-c2f3-455d-9e5f-7f29d3bc6b31")
 		)
 		(pin "2"
-			(uuid "c02787f6-428e-43ce-bdb9-159c9f104305")
+			(uuid "5be153d1-4563-435f-b408-f7130a8dcdb7")
 		)
 		(pin "16"
-			(uuid "7c09b4af-207f-43d5-967f-9256c8236a7b")
+			(uuid "ca1754c7-7862-4634-8054-a48b568a34d9")
 		)
 		(pin "12"
-			(uuid "4f39efb3-4e84-4986-98c7-06135a1ca2ed")
+			(uuid "de032c1a-1a6e-4307-beec-050948cc5796")
 		)
 		(pin "13"
-			(uuid "aa2ce9dd-69a6-4e1b-8a68-621f9de35773")
+			(uuid "7e51a6f6-6bae-4928-bbbc-6841568733d2")
 		)
 		(pin "14"
-			(uuid "1cdb488d-ef98-4a93-8060-683b111ab242")
+			(uuid "a95e5659-3f66-4217-b659-01761bf2ba45")
 		)
 		(pin "11"
-			(uuid "265094c8-6c79-4395-ac4b-56d5185a9937")
+			(uuid "a8c7e220-86d6-4735-b23c-eee673e88362")
 		)
 		(pin "9"
-			(uuid "e23a00f2-488c-46f9-8cfd-0236ff6c18c0")
+			(uuid "e5b46011-50bb-4604-9d85-0a44f90cb93c")
 		)
 		(pin "7"
-			(uuid "a56006e8-50d6-404e-9d5a-4eb8b50b8adf")
+			(uuid "0f19bcf9-9698-4bd5-880e-d02d192b6409")
 		)
 		(pin "5"
-			(uuid "9ca60d06-dc46-4c27-8de0-5955b8f469b4")
+			(uuid "36c12b0f-3db0-46e7-90da-22e586ebe82d")
 		)
 		(pin "8"
-			(uuid "fed0fc2f-f1cf-49c4-88f0-d946923c0bb5")
+			(uuid "7ef74510-6e63-4663-99b0-efc5d86e01bd")
 		)
 		(pin "3"
-			(uuid "aee5d79e-c7d8-444c-8ed4-e916cdea81dd")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "U6")
-					(unit 1)
-				)
-			)
+			(uuid "f627b276-f28d-4f62-b269-6243da98195f")
 		)
 	)
 	(symbol
@@ -8888,10 +8832,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "efa7426f-f530-47d7-bc64-65aa904973e4")
+			(uuid "e9ef47c4-c943-47f3-95cf-9ccef0d956fb")
 		)
 		(pin "1"
-			(uuid "2cc76945-fb84-48fa-96f0-047b6416a983")
+			(uuid "e63fa532-38a5-42b4-b2be-ee3ee6b657e7")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -8957,7 +8901,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b274a33e-b957-4f52-a2cc-930bf618aa60")
+			(uuid "2bc66a07-b1dc-48f3-9ffa-4d80e8fd0383")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -9033,10 +8977,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a3f53ea-74dc-4be6-aa36-c21d886c11a6")
+			(uuid "259f93d8-4051-4b52-9832-2f702d3f454f")
 		)
 		(pin "2"
-			(uuid "34447ada-0caa-4316-ad2b-25fe1c8d8b77")
+			(uuid "cad4f9bb-422d-4baa-98e4-84e091482fa1")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -9102,7 +9046,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f720f179-a8f2-48b2-b855-9f266b3988c0")
+			(uuid "a4b53162-f2ac-471a-9e0a-d61d0da97aed")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -9178,18 +9122,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a52ef0fd-8324-4267-9a57-c8a63abc2d70")
+			(uuid "915c7a45-988b-4b55-83e0-efc036405d98")
 		)
 		(pin "2"
-			(uuid "cb65d796-e6a9-4522-9dbc-d3090f35d03f")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "D5")
-					(unit 1)
-				)
-			)
+			(uuid "5cd8e0a0-669e-4c19-8ea3-0afde42ca508")
 		)
 	)
 	(symbol
@@ -9257,10 +9193,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "76161792-4b3d-4bfa-aef5-7cffe37f700a")
+			(uuid "e72ed3af-db26-4ca9-901f-a0d714bdf799")
 		)
 		(pin "2"
-			(uuid "4dd1b4f0-f3de-4f7f-8a4f-955bec9c4e04")
+			(uuid "30298134-c687-4105-858f-1c4f48942269")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -9363,10 +9299,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "96fa322e-d983-48cc-ab9f-40258d0f56c0")
+			(uuid "931eb9e4-6941-485f-b29d-832e017adb99")
 		)
 		(pin "1"
-			(uuid "d420fa01-04d7-440e-baa4-f064f69e1ea6")
+			(uuid "c59c4577-53ba-47f2-805e-f5a572e9320f")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -9442,18 +9378,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f67bf257-fdaf-4ade-a842-29aff0c619c6")
+			(uuid "6b95ed58-2025-439a-ae27-164345ac03c5")
 		)
 		(pin "1"
-			(uuid "e0e9947d-bd9a-490e-a419-63f11d6b7e12")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "D6")
-					(unit 1)
-				)
-			)
+			(uuid "40e80de9-50cb-40f7-b351-32c752eddc0e")
 		)
 	)
 	(symbol
@@ -9511,7 +9439,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d20985a4-3d77-440a-9dec-7ed5ed2004d3")
+			(uuid "7359d6aa-dbe6-4c49-b026-5a6a1b1b1380")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -9578,10 +9506,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "aaa85ce0-ffc8-4a6d-89a5-ec9cb8b072ce")
+			(uuid "955ce3fd-de8e-4bd6-b88c-c345209280ec")
 		)
 		(pin "1"
-			(uuid "dc274c08-5795-4011-8155-a06acb4f187f")
+			(uuid "c063320b-27d4-45c3-aa5e-047b530915eb")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -9647,7 +9575,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fbf38b10-e75c-400f-9fd5-ebd63ac02118")
+			(uuid "ecc714a8-e8b1-40c2-a33b-e80e72e378fb")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -9713,7 +9641,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f73a48c-05a6-4947-b0a6-bd940630eb5c")
+			(uuid "79f07646-b354-4f4b-8242-a65b9d59b880")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -9781,60 +9709,52 @@
 			)
 		)
 		(pin "2"
-			(uuid "350d410b-bef7-43b6-a9f6-6771cd40a0fa")
+			(uuid "c479cdc7-6d80-4376-b390-e1c657b7951c")
 		)
 		(pin "5"
-			(uuid "775cdc91-e6b0-48ad-8b3c-717c4f6136a8")
+			(uuid "dca22fe1-5d45-4735-9c43-2059930e008a")
 		)
 		(pin "4"
-			(uuid "c4fa5695-366e-4628-af4d-3d68b3b2dbec")
+			(uuid "d69865cd-683d-4c3b-af3b-88568e051361")
 		)
 		(pin "7"
-			(uuid "92863ee3-ee4b-4a67-b821-0eda3807e4f5")
+			(uuid "50981b18-c93e-48ec-91d5-666323be49e3")
 		)
 		(pin "8"
-			(uuid "4b6b03db-0c49-4bc9-a377-4b26367969f6")
+			(uuid "5411bb84-5de9-4ec9-8844-e3d5a1b6570d")
 		)
 		(pin "9"
-			(uuid "1d9645b5-47b3-4444-a0a0-e3253558a987")
+			(uuid "cb6d68b7-d654-4035-937e-7d6cf0bdcd9e")
 		)
 		(pin "10"
-			(uuid "1c064734-935b-400a-9c91-315e2701929d")
+			(uuid "22b2eb92-0fb5-4e29-a2ed-10345a5600ce")
 		)
 		(pin "16"
-			(uuid "81358b58-225d-4025-b0fc-ce6f41bf7228")
+			(uuid "dbe66ce7-4df3-4d5e-b8d4-ab61301afbfe")
 		)
 		(pin "14"
-			(uuid "dc2c7322-819a-4525-a41c-751dd2279c2a")
+			(uuid "e37a2077-1fad-4870-a336-c25b4654dfc2")
 		)
 		(pin "13"
-			(uuid "572cd787-705b-48ca-a619-189edb114e7f")
+			(uuid "f3568ab5-55ae-46ad-9ec2-aa38fab1c173")
 		)
 		(pin "12"
-			(uuid "011d5085-515d-4617-868d-2eb87eaa310b")
+			(uuid "f05f2b6a-446b-4160-95d3-350c4da9ab41")
 		)
 		(pin "6"
-			(uuid "3ece8d54-9ef7-4c36-8520-874fd94a112e")
+			(uuid "e98263a4-4da9-40fd-b56d-7798c6bde061")
 		)
 		(pin "11"
-			(uuid "080e526d-6eb7-418d-99a2-0856c58146f9")
+			(uuid "1168a933-a728-4dab-b438-39837d3167fe")
 		)
 		(pin "15"
-			(uuid "fcccb99f-22a6-4414-b19f-f8302e656395")
+			(uuid "20688064-c8d1-407c-801f-e95c6eab5fa2")
 		)
 		(pin "3"
-			(uuid "43ebe2a8-39d2-4629-850f-89ece20faaf9")
+			(uuid "a19cbb6a-a3a0-4dc5-9427-c4c12009cfef")
 		)
 		(pin "1"
-			(uuid "18c3d59f-9e90-4aa4-92c6-d399fb6d32fb")
-		)
-		(instances
-			(project ""
-				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
-					(reference "DS1")
-					(unit 1)
-				)
-			)
+			(uuid "9fef0814-3933-4aa9-b066-95e8c9bae5d9")
 		)
 	)
 	(symbol
@@ -9892,7 +9812,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d333a5e7-20f1-4ea8-810b-7b9a35e6abd7")
+			(uuid "037a13b3-19c4-4129-936d-7306be7e6c23")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -9958,7 +9878,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd7e6a11-633c-4394-b3b5-c600533942a2")
+			(uuid "93898551-533a-4458-9b6d-8a880733c3c9")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -10023,7 +9943,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "94ef68f0-f95d-4c4f-8c1a-bbbee56bfa39")
+			(uuid "fb98f359-5778-43e7-87ad-ee8fa5333dc3")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -10126,10 +10046,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e080fd6-d04d-4752-9c72-ad0deed3d2ce")
+			(uuid "53e70370-35d5-49dd-a81f-fcfaa2089614")
 		)
 		(pin "2"
-			(uuid "4f8f6d1f-274f-4b75-962a-1a09840f0b13")
+			(uuid "ef8e4204-ffd0-4b90-9bc1-d0653a4afd89")
 		)
 		(instances
 			(project "PumpMonitorPCB"
@@ -10232,10 +10152,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "785c0edc-b919-4e34-a991-e27410a4d5c2")
+			(uuid "305f87ad-1d0d-448e-96c8-29062b1a0905")
 		)
 		(pin "2"
-			(uuid "ea3f3707-af24-4119-9510-9c30cd7676f9")
+			(uuid "982b2efc-cb49-4aa5-b3a9-47ffa1837421")
 		)
 		(instances
 			(project "PumpMonitorPCB"
