@@ -460,7 +460,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "PumpMonitorCustomFootprints"
+    ],
     "pinned_symbol_libs": [
       "PumpMonitorCustom",
       "AustralianPowerpoints"
@@ -543,6 +545,9 @@
         "HV"
       ],
       "Net-(F1-Pad2)": [
+        "HV"
+      ],
+      "Net-(F2-Pad2)": [
         "HV"
       ],
       "Net-(PS1-AC{slash}L)": [

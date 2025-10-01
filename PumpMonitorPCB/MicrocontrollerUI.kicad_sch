@@ -6374,7 +6374,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 90.17 172.72 0)
 			(effects
 				(font
@@ -6480,7 +6480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
 			(at 256.54 111.76 0)
 			(effects
 				(font
@@ -6515,6 +6515,14 @@
 		)
 		(pin "2"
 			(uuid "ba449658-5f52-4529-ae2c-7be4abd8262a")
+		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7103,6 +7111,14 @@
 		(pin "22"
 			(uuid "bda0ebcc-1443-40d6-9403-b56670dd865a")
 		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7243,6 +7259,14 @@
 		(pin "5"
 			(uuid "00ac9a42-9006-4f80-b5d5-3a8c078be73b")
 		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7371,6 +7395,14 @@
 		(pin "2"
 			(uuid "552220ad-3edb-43c2-bbf4-1bef8d88cc9e")
 		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7432,6 +7464,14 @@
 		)
 		(pin "1"
 			(uuid "7eec451b-3f1b-44f3-8d3d-20a494c236df")
+		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8499,6 +8539,14 @@
 		(pin "2"
 			(uuid "51799f80-5378-4aa6-b84b-1ae45a864f28")
 		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -8594,7 +8642,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 45.72 172.72 0)
 			(effects
 				(font
@@ -8774,6 +8822,14 @@
 		)
 		(pin "3"
 			(uuid "f627b276-f28d-4f62-b269-6243da98195f")
+		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9127,6 +9183,14 @@
 		(pin "2"
 			(uuid "5cd8e0a0-669e-4c19-8ea3-0afde42ca508")
 		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -9382,6 +9446,14 @@
 		)
 		(pin "1"
 			(uuid "40e80de9-50cb-40f7-b351-32c752eddc0e")
+		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9756,6 +9828,14 @@
 		(pin "1"
 			(uuid "9fef0814-3933-4aa9-b066-95e8c9bae5d9")
 		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/d8d6cf40-f9ad-44cc-b7dc-bac9eac23749"
+					(reference "DS1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9982,7 +10062,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
 			(at 20.32 172.72 0)
 			(effects
 				(font
@@ -10088,7 +10168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 74.93 172.72 0)
 			(effects
 				(font

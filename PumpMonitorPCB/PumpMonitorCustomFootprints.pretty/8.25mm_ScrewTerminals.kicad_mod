@@ -1,0 +1,129 @@
+(footprint "8.25mm_ScrewTerminals"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.019732 -7.030627 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ee60f638-fce2-4a77-a43c-8ac894f3d8dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "8.25mm_ScrewTerminals"
+		(at -0.002794 -5.476289 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "22b3e95b-5170-485d-bd1a-743ae4926739")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7c33d8c-84c5-4f6f-835c-59cbc8c467cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76b3c43f-bdcb-41e8-a496-3cbe44a3bf31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -12.83 -4)
+		(end 12.83 11.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5013d4a0-fd51-4cad-ad46-baa240089a51")
+	)
+	(fp_rect
+		(start -12.83 -4)
+		(end 12.83 11.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1402a2af-fd79-4831-bed1-05671748e1a7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.341129 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2f79a0b6-3b98-4c2c-b4b9-28dc48b9b7c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -8.25 0)
+		(size 4.2 4.2)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "fa859a65-6b9a-4113-9360-290383188b54")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 4.2 4.2)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94841769-7579-46b2-bfbd-a007e40237b8")
+	)
+	(pad "3" thru_hole circle
+		(at 8.25 0)
+		(size 4.2 4.2)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b5d499d0-a3c9-4cfe-beb9-7d0a6cfc2881")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PumpMonitorCustomFootprints.pretty/Terminals8.25Pads-Header.step"
+		(offset
+			(xyz -12.83 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

@@ -1452,7 +1452,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 104.14) (xy 224.79 104.14)
+			(xy 219.71 104.14) (xy 222.25 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1472,7 +1472,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 130.81) (xy 222.25 104.14)
+			(xy 219.71 130.81) (xy 219.71 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1482,7 +1482,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 114.3) (xy 186.69 114.3)
+			(xy 186.69 114.3) (xy 189.23 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1502,7 +1502,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 99.06) (xy 219.71 114.3)
+			(xy 217.17 99.06) (xy 217.17 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1512,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 72.39) (xy 184.15 72.39)
+			(xy 189.23 72.39) (xy 186.69 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1532,7 +1532,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 72.39) (xy 217.17 72.39)
+			(xy 214.63 72.39) (xy 217.17 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1592,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 101.6) (xy 222.25 88.9)
+			(xy 219.71 101.6) (xy 219.71 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1612,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 114.3) (xy 212.09 114.3)
+			(xy 217.17 114.3) (xy 214.63 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 101.6) (xy 222.25 101.6)
+			(xy 222.25 101.6) (xy 219.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +1642,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 199.39 88.9)
+			(xy 219.71 88.9) (xy 201.93 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1652,7 +1652,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 130.81) (xy 222.25 130.81)
+			(xy 201.93 130.81) (xy 219.71 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1662,7 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 128.27) (xy 199.39 130.81)
+			(xy 201.93 128.27) (xy 201.93 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1732,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 88.9) (xy 199.39 86.36)
+			(xy 201.93 88.9) (xy 201.93 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1752,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 93.98) (xy 184.15 114.3)
+			(xy 186.69 93.98) (xy 186.69 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1772,7 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 72.39) (xy 184.15 91.44)
+			(xy 186.69 72.39) (xy 186.69 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1812,7 +1812,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 91.44) (xy 224.79 91.44)
+			(xy 186.69 91.44) (xy 222.25 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1832,7 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 99.06) (xy 219.71 99.06)
+			(xy 222.25 99.06) (xy 217.17 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1882,7 +1882,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 93.98) (xy 224.79 93.98)
+			(xy 186.69 93.98) (xy 222.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1892,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 96.52) (xy 224.79 96.52)
+			(xy 217.17 96.52) (xy 222.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2103,7 +2103,7 @@
 	)
 	(symbol
 		(lib_id "PumpMonitorCustom:MainPCB")
-		(at 247.65 86.36 0)
+		(at 245.11 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2112,7 +2112,7 @@
 		(fields_autoplaced yes)
 		(uuid "25715dbb-81c1-4cb4-8eb2-dfd459038756")
 		(property "Reference" "#MOD1"
-			(at 247.65 86.36 0)
+			(at 245.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2121,7 @@
 			)
 		)
 		(property "Value" "Main PCB"
-			(at 224.79 87.63 0)
+			(at 222.25 87.63 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2131,7 +2131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 86.36 0)
+			(at 245.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 86.36 0)
+			(at 245.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,7 +2149,7 @@
 			)
 		)
 		(property "Description" "Symbol that represents the main PCB of the pump monitor (used to show alternate wiring)."
-			(at 247.65 86.36 0)
+			(at 245.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2186,7 @@
 	)
 	(symbol
 		(lib_id "AustralianPowerpoints:3PinMainsPowerPlug_Small")
-		(at 199.39 73.66 0)
+		(at 201.93 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2195,7 +2195,7 @@
 		(fields_autoplaced yes)
 		(uuid "5edd6ed9-9b59-4fef-a977-d67a0405a995")
 		(property "Reference" "#J3"
-			(at 199.39 59.69 0)
+			(at 201.93 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2203,7 @@
 			)
 		)
 		(property "Value" "10A mains plug"
-			(at 199.39 62.23 0)
+			(at 201.93 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 73.66 0)
+			(at 201.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 73.66 0)
+			(at 201.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2229,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 73.66 0)
+			(at 201.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2411,7 @@
 	)
 	(symbol
 		(lib_id "AustralianPowerpoints:3PinMainsPowerSocket_Small")
-		(at 199.39 115.57 0)
+		(at 201.93 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2419,7 +2419,7 @@
 		(dnp no)
 		(uuid "e884e2e0-5d79-4890-9c1b-e018d00d764f")
 		(property "Reference" "#J4"
-			(at 199.39 101.6 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2427,7 @@
 			)
 		)
 		(property "Value" "10A mains socket"
-			(at 199.39 104.14 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 115.57 0)
+			(at 201.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 115.57 0)
+			(at 201.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2453,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 115.57 0)
+			(at 201.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

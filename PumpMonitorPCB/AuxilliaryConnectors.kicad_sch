@@ -1653,7 +1653,7 @@
 			)
 		)
 		(column_widths 21.59 21.59)
-		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 3.81)
 		(cells
 			(table_cell "Bus"
 				(exclude_from_sim no)
@@ -1862,7 +1862,7 @@
 			(table_cell "5v"
 				(exclude_from_sim no)
 				(at 71.12 40.64 0)
-				(size 21.59 2.54)
+				(size 21.59 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -1879,7 +1879,7 @@
 			(table_cell "1"
 				(exclude_from_sim no)
 				(at 92.71 40.64 0)
-				(size 21.59 2.54)
+				(size 21.59 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -1892,142 +1892,6 @@
 					(justify left top)
 				)
 				(uuid "b5fbfc1e-d4fc-4c99-b3b7-59ab630b4e99")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 71.12 43.18 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "33285a58-39c1-427d-9cd6-98843326d2d2")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 92.71 43.18 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "215d52cc-79bf-41e1-ad54-f5396e0d68e8")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 71.12 45.72 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "02d86b92-b442-44b0-83e5-5b6ed7bd5781")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 92.71 45.72 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "a8cf17e0-959c-4f5e-92dd-ce8fffa93a72")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 71.12 48.26 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "9f440e93-abed-49b9-8f63-097d622e91be")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 92.71 48.26 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "18c25cd0-3f1b-428c-8492-b28c7f6d2087")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 71.12 50.8 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "da806b08-e49c-479b-9069-9a3bf5336bd3")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 92.71 50.8 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "944c75ba-5084-4e31-a020-3427f4d6ac62")
 			)
 		)
 	)
@@ -2270,6 +2134,14 @@
 		(pin "1"
 			(uuid "3197554d-49db-41e1-8784-6b15db86eea6")
 		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/91bf94f0-7f00-44b4-9278-0ffa2bbc6ab6"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MCU_Module:Arduino_Nano_v3.x")
@@ -2417,6 +2289,14 @@
 		(pin "18"
 			(uuid "930d9603-cac9-4cab-a94e-aaccdbb01c3a")
 		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/91bf94f0-7f00-44b4-9278-0ffa2bbc6ab6"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2473,6 +2353,14 @@
 		)
 		(pin "1"
 			(uuid "95ff7d33-5204-41e8-a810-548400bedccb")
+		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/91bf94f0-7f00-44b4-9278-0ffa2bbc6ab6"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2531,6 +2419,14 @@
 		)
 		(pin "1"
 			(uuid "f46ac37d-b532-4550-9fdb-a19807b93e81")
+		)
+		(instances
+			(project "PumpMonitorPCB"
+				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/91bf94f0-7f00-44b4-9278-0ffa2bbc6ab6"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
