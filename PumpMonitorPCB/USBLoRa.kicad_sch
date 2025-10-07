@@ -6,9 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Pump monitor - USB and LoRa transceiver")
-		(date "2025-09-25")
+		(date "2025-10-07")
 		(rev "V0.0.0")
 		(company "Jotham Gates")
+		(comment 1 "functionality depending on the application.")
+		(comment 2 "Components marked \"do not populate\" are optional and may be fitted to add additional")
 		(comment 4 "Warning: Parts of this circuit operate at mains potential.")
 	)
 	(lib_symbols
@@ -2326,6 +2328,10 @@
 		(uuid "d444f911-6c2c-46fc-b1b2-45a3e4f1f6a2")
 	)
 	(no_connect
+		(at 158.75 110.49)
+		(uuid "4b310ff1-5088-4687-962b-08f860892e3f")
+	)
+	(no_connect
 		(at 228.6 129.54)
 		(uuid "65d993b7-8c22-4511-a151-1391c2a6fe14")
 	)
@@ -3328,7 +3334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10bb4aaf-8431-4fb4-b1c9-ff8edcbc322a")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR062"
 			(at 148.59 129.54 0)
 			(effects
 				(font
@@ -3378,7 +3384,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR060")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -3436,15 +3442,6 @@
 				(hide yes)
 			)
 		)
-		(property "PlaceOnSecondary" "No"
-			(at 148.59 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 148.59 113.03 0)
 			(effects
@@ -3464,6 +3461,15 @@
 			)
 		)
 		(property "SchematicVersionModified" "V1.0.4"
+			(at 148.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
 			(at 148.59 113.03 0)
 			(effects
 				(font
@@ -3524,7 +3530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 144.4752 52.07 0)
 			(effects
 				(font
@@ -3543,6 +3549,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
 			(at 143.51 48.26 0)
 			(effects
 				(font
@@ -3576,7 +3591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b160bb1-151d-46e7-86cf-cdac0715f040")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR061"
 			(at 143.51 60.96 0)
 			(effects
 				(font
@@ -3626,7 +3641,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR059")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3642,7 +3657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b91ba97-4069-4c12-bd7a-6c02b6982169")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 120.65 55.88 0)
 			(effects
 				(font
@@ -3692,7 +3707,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3708,7 +3723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25d21a33-7836-4338-9b54-081ba773c5cf")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 205.74 114.2999 0)
 			(effects
 				(font
@@ -3726,7 +3741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 201.422 115.57 90)
 			(effects
 				(font
@@ -3745,15 +3760,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PlaceOnSecondary" "No"
 			(at 203.2 115.57 0)
 			(effects
 				(font
@@ -3789,6 +3795,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "639ac071-f9dc-4722-9535-163a873136b0")
 		)
@@ -3798,7 +3813,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3814,7 +3829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28a2b759-8158-4d68-b7c6-d8ee72be31e6")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 135.89 114.3 0)
 			(effects
 				(font
@@ -3864,7 +3879,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR057")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3880,7 +3895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "336b98dc-5ac6-4f42-aeb8-aaa68a4178f6")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 196.85 114.2999 0)
 			(effects
 				(font
@@ -3898,7 +3913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 192.532 115.57 90)
 			(effects
 				(font
@@ -3917,15 +3932,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PlaceOnSecondary" "No"
 			(at 194.31 115.57 0)
 			(effects
 				(font
@@ -3961,6 +3967,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25d2d311-458b-4b36-b9f7-d8baa2cf1449")
 		)
@@ -3970,7 +3985,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3986,7 +4001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b15360b-34cb-4997-8a7e-fd1c43da09d5")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -4036,7 +4051,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4052,7 +4067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f966669-a359-4d9b-9d39-d4f0b409ca9f")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 243.84 93.98 0)
 			(effects
 				(font
@@ -4087,6 +4102,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 243.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
 			(at 243.84 116.84 0)
 			(effects
 				(font
@@ -4149,7 +4173,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4201,6 +4225,15 @@
 		)
 		(property "Description" "The Wio-SX1262 is a LoRa wireless module based on the Semtech SX1262 chip, supporting LoRa & LoRaWAN frequency from 868 to 915 MHz."
 			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 105.41 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1770b0-f8c9-4fa8-9bb3-a9aa5418d8da")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR064"
 			(at 220.98 92.71 0)
 			(effects
 				(font
@@ -4313,7 +4346,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR062")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4329,7 +4362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "887622e6-98fe-41cb-a94d-c7fb5b1cc2b9")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 90.17 66.04 0)
 			(effects
 				(font
@@ -4379,7 +4412,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4395,7 +4428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6ebd62f-803b-4410-87b8-c84a2da9d12f")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 194.31 130.81 0)
 			(effects
 				(font
@@ -4445,7 +4478,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4461,7 +4494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b709713e-01fa-4dfe-8e24-2cda8e1cde88")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR060"
 			(at 143.51 45.72 0)
 			(effects
 				(font
@@ -4511,7 +4544,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR058")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4527,7 +4560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae54ba4-bcb7-473e-a7a2-7ca16901f462")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR065"
 			(at 243.84 151.13 0)
 			(effects
 				(font
@@ -4577,7 +4610,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "#PWR063")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4593,7 +4626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd5191d8-3e8e-4529-8c9d-7954d7514f21")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 218.44 93.9799 90)
 			(effects
 				(font
@@ -4656,6 +4689,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" ""
+			(at 220.98 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "12d0b799-49eb-4338-acb9-cc4c94143fed")
 		)
@@ -4665,7 +4707,7 @@
 		(instances
 			(project "PumpMonitorPCB"
 				(path "/c90c4964-ca1b-44d9-8ea9-8989903af0f2/519408a1-89cc-4bd2-9b7b-cb03d2ff4d33/da0c16f9-ee3c-407f-b19e-ac24af140ef1"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)

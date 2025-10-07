@@ -898,7 +898,7 @@
 		(symbol "MainPCB_0_1"
 			(rectangle
 				(start -22.86 -2.54)
-				(end 22.86 -22.86)
+				(end 22.86 -43.18)
 				(stroke
 					(width 0)
 					(type default)
@@ -925,8 +925,8 @@
 			)
 			(polyline
 				(pts
-					(xy -22.86 -10.16) (xy -22.86 -9.525) (xy -22.225 -9.525) (xy -21.59 -10.16) (xy -22.225 -10.795)
-					(xy -22.86 -10.795) (xy -22.86 -10.16)
+					(xy -22.86 -7.62) (xy -22.86 -6.985) (xy -22.225 -6.985) (xy -21.59 -7.62) (xy -22.225 -8.255)
+					(xy -22.86 -8.255) (xy -22.86 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -953,8 +953,8 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 -7.62) (xy -21.59 -6.985) (xy -22.225 -6.985) (xy -22.86 -7.62) (xy -22.225 -8.255)
-					(xy -21.59 -8.255) (xy -21.59 -7.62)
+					(xy -22.86 -17.78) (xy -22.86 -17.145) (xy -22.225 -17.145) (xy -21.59 -17.78) (xy -22.225 -18.415)
+					(xy -22.86 -18.415) (xy -22.86 -17.78)
 				)
 				(stroke
 					(width 0)
@@ -967,8 +967,8 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 -12.7) (xy -21.59 -12.065) (xy -22.225 -12.065) (xy -22.86 -12.7) (xy -22.225 -13.335)
-					(xy -21.59 -13.335) (xy -21.59 -12.7)
+					(xy -21.59 -10.16) (xy -21.59 -9.525) (xy -22.225 -9.525) (xy -22.86 -10.16) (xy -22.225 -10.795)
+					(xy -21.59 -10.795) (xy -21.59 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -981,8 +981,92 @@
 			)
 			(polyline
 				(pts
-					(xy -21.59 -17.78) (xy -21.59 -17.145) (xy -22.225 -17.145) (xy -22.86 -17.78) (xy -22.225 -18.415)
-					(xy -21.59 -18.415) (xy -21.59 -17.78)
+					(xy -21.59 -20.32) (xy -21.59 -19.685) (xy -22.225 -19.685) (xy -22.86 -20.32) (xy -22.225 -20.955)
+					(xy -21.59 -20.955) (xy -21.59 -20.32)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 114 86 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -25.4) (xy -21.59 -24.765) (xy -22.733 -24.765) (xy -22.733 -26.035) (xy -21.59 -26.035)
+					(xy -21.59 -25.4)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 114 86 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -27.94) (xy -21.59 -27.305) (xy -22.733 -27.305) (xy -22.733 -28.575) (xy -21.59 -28.575)
+					(xy -21.59 -27.94)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 114 86 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -30.48) (xy -21.59 -29.845) (xy -22.733 -29.845) (xy -22.733 -31.115) (xy -21.59 -31.115)
+					(xy -21.59 -30.48)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 114 86 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -35.56) (xy -21.59 -34.925) (xy -22.733 -34.925) (xy -22.733 -36.195) (xy -21.59 -36.195)
+					(xy -21.59 -35.56)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 114 86 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -38.1) (xy -21.59 -37.465) (xy -22.733 -37.465) (xy -22.733 -38.735) (xy -21.59 -38.735)
+					(xy -21.59 -38.1)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 114 86 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -40.64) (xy -21.59 -40.005) (xy -22.733 -40.005) (xy -22.733 -41.275) (xy -21.59 -41.275)
+					(xy -21.59 -40.64)
 				)
 				(stroke
 					(width 0)
@@ -1011,10 +1095,10 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -22.86 -7.62 0)
 				(length 0)
-				(name "Live_out"
+				(name "Live_in"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1029,10 +1113,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -22.86 -10.16 0)
 				(length 0)
-				(name "Neutral_in"
+				(name "Live_out"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1047,10 +1131,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -22.86 -12.7 0)
+			(pin power_in line
+				(at -22.86 -15.24 0)
 				(length 0)
-				(name "Neutral_out"
+				(name "Neutral_in"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1065,10 +1149,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -22.86 -15.24 0)
+			(pin power_in line
+				(at -22.86 -17.78 0)
 				(length 0)
-				(name "Earth"
+				(name "Neutral_in"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1083,8 +1167,26 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at -22.86 -20.32 0)
+				(length 0)
+				(name "Neutral_out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
-				(at -22.86 -17.78 0)
+				(at -22.86 -25.4 0)
 				(length 0)
 				(name "Earth"
 					(effects
@@ -1093,7 +1195,97 @@
 						)
 					)
 				)
-				(number "6"
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -27.94 0)
+				(length 0)
+				(name "Earth"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -30.48 0)
+				(length 0)
+				(name "Earth"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -35.56 0)
+				(length 0)
+				(name "Aux_NO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -38.1 0)
+				(length 0)
+				(name "Aux_NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -40.64 0)
+				(length 0)
+				(name "Aux_common"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)

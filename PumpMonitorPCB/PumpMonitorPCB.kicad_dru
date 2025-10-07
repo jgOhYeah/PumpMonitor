@@ -1,0 +1,66 @@
+(version 1)
+# Auto-Generated for voltage distances - start
+(rule Default_Default_min_self_distance
+	(constraint clearance (min "0.15mm"))
+	(condition "A.NetClass == 'Default' && B.NetClass == 'Default'"))
+(rule HV_E_Default
+	(constraint clearance (min "7.0mm"))
+	(condition "A.NetClass == 'HV_E' && B.NetClass == 'Default'"))
+(rule HV_E_HV_E
+	(constraint clearance (min "100.0mm"))
+	(condition "A.NetClass == 'HV_E' && B.NetClass == 'HV_E'"))
+(rule HV_L_{fused}_Default
+	(constraint clearance (min "7.0mm"))
+	(condition "A.NetClass == 'HV_L_{fused}' && B.NetClass == 'Default'"))
+(rule HV_L_{fused}_HV_E
+	(constraint clearance (min "3.0mm"))
+	(condition "A.NetClass == 'HV_L_{fused}' && B.NetClass == 'HV_E'"))
+(rule HV_L_{fused}_HV_L_{fused}
+	(constraint clearance (min "3.0mm"))
+	(condition "A.NetClass == 'HV_L_{fused}' && B.NetClass == 'HV_L_{fused}'"))
+(rule HV_L_{in}_Default
+	(constraint clearance (min "7.0mm"))
+	(condition "A.NetClass == 'HV_L_{in}' && B.NetClass == 'Default'"))
+(rule HV_L_{in}_HV_E
+	(constraint clearance (min "3.0mm"))
+	(condition "A.NetClass == 'HV_L_{in}' && B.NetClass == 'HV_E'"))
+(rule HV_L_{in}_HV_L_{fused}
+	(constraint clearance (min "3.0mm"))
+	(condition "A.NetClass == 'HV_L_{in}' && B.NetClass == 'HV_L_{fused}'"))
+(rule HV_L_{in}_HV_L_{in}
+	(constraint clearance (min "3.0mm"))
+	(condition "A.NetClass == 'HV_L_{in}' && B.NetClass == 'HV_L_{in}'"))
+(rule HV_L_{out}_Default
+	(constraint clearance (min "7.0mm"))
+	(condition "A.NetClass == 'HV_L_{out}' && B.NetClass == 'Default'"))
+(rule HV_L_{out}_HV_E
+	(constraint clearance (min "3.0mm"))
+	(condition "A.NetClass == 'HV_L_{out}' && B.NetClass == 'HV_E'"))
+(rule HV_L_{out}_HV_L_{fused}
+	(constraint clearance (min "3.0mm"))
+	(condition "A.NetClass == 'HV_L_{out}' && B.NetClass == 'HV_L_{fused}'"))
+(rule HV_L_{out}_HV_L_{in}
+	(constraint clearance (min "3.0mm"))
+	(condition "A.NetClass == 'HV_L_{out}' && B.NetClass == 'HV_L_{in}'"))
+(rule HV_L_{out}_HV_L_{out}
+	(constraint clearance (min "3.0mm"))
+	(condition "A.NetClass == 'HV_L_{out}' && B.NetClass == 'HV_L_{out}'"))
+(rule HV_N_Default
+	(constraint clearance (min "7mm"))
+	(condition "A.NetClass == 'HV_N' && B.NetClass == 'Default'"))
+(rule HV_N_HV_E
+	(constraint clearance (min "3mm"))
+	(condition "A.NetClass == 'HV_N' && B.NetClass == 'HV_E'"))
+(rule HV_N_HV_L_{fused}
+	(constraint clearance (min "3mm"))
+	(condition "A.NetClass == 'HV_N' && B.NetClass == 'HV_L_{fused}'"))
+(rule HV_N_HV_L_{in}
+	(constraint clearance (min "3mm"))
+	(condition "A.NetClass == 'HV_N' && B.NetClass == 'HV_L_{in}'"))
+(rule HV_N_HV_L_{out}
+	(constraint clearance (min "3mm"))
+	(condition "A.NetClass == 'HV_N' && B.NetClass == 'HV_L_{out}'"))
+(rule HV_N_HV_N
+	(constraint clearance (min "1mm"))
+	(condition "A.NetClass == 'HV_N' && B.NetClass == 'HV_N'"))
+# Auto-Generated - end
