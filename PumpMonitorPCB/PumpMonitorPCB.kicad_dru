@@ -1,66 +1,94 @@
 (version 1)
 # Auto-Generated for voltage distances - start
-(rule Default_Default_min_self_distance
-	(constraint clearance (min "0.15mm"))
+(rule Default_Default
+	(constraint clearance (min "0.2mm"))
 	(condition "A.NetClass == 'Default' && B.NetClass == 'Default'"))
-(rule HV_E_Default
-	(constraint clearance (min "7.0mm"))
-	(condition "A.NetClass == 'HV_E' && B.NetClass == 'Default'"))
-(rule HV_E_HV_E
-	(constraint clearance (min "100.0mm"))
-	(condition "A.NetClass == 'HV_E' && B.NetClass == 'HV_E'"))
-(rule HV_L_{fused}_Default
-	(constraint clearance (min "7.0mm"))
-	(condition "A.NetClass == 'HV_L_{fused}' && B.NetClass == 'Default'"))
-(rule HV_L_{fused}_HV_E
-	(constraint clearance (min "3.0mm"))
-	(condition "A.NetClass == 'HV_L_{fused}' && B.NetClass == 'HV_E'"))
-(rule HV_L_{fused}_HV_L_{fused}
-	(constraint clearance (min "3.0mm"))
-	(condition "A.NetClass == 'HV_L_{fused}' && B.NetClass == 'HV_L_{fused}'"))
-(rule HV_L_{in}_Default
-	(constraint clearance (min "7.0mm"))
-	(condition "A.NetClass == 'HV_L_{in}' && B.NetClass == 'Default'"))
-(rule HV_L_{in}_HV_E
-	(constraint clearance (min "3.0mm"))
-	(condition "A.NetClass == 'HV_L_{in}' && B.NetClass == 'HV_E'"))
-(rule HV_L_{in}_HV_L_{fused}
-	(constraint clearance (min "3.0mm"))
-	(condition "A.NetClass == 'HV_L_{in}' && B.NetClass == 'HV_L_{fused}'"))
-(rule HV_L_{in}_HV_L_{in}
-	(constraint clearance (min "3.0mm"))
-	(condition "A.NetClass == 'HV_L_{in}' && B.NetClass == 'HV_L_{in}'"))
-(rule HV_L_{out}_Default
-	(constraint clearance (min "7.0mm"))
-	(condition "A.NetClass == 'HV_L_{out}' && B.NetClass == 'Default'"))
-(rule HV_L_{out}_HV_E
-	(constraint clearance (min "3.0mm"))
-	(condition "A.NetClass == 'HV_L_{out}' && B.NetClass == 'HV_E'"))
-(rule HV_L_{out}_HV_L_{fused}
-	(constraint clearance (min "3.0mm"))
-	(condition "A.NetClass == 'HV_L_{out}' && B.NetClass == 'HV_L_{fused}'"))
-(rule HV_L_{out}_HV_L_{in}
-	(constraint clearance (min "3.0mm"))
-	(condition "A.NetClass == 'HV_L_{out}' && B.NetClass == 'HV_L_{in}'"))
-(rule HV_L_{out}_HV_L_{out}
-	(constraint clearance (min "3.0mm"))
-	(condition "A.NetClass == 'HV_L_{out}' && B.NetClass == 'HV_L_{out}'"))
-(rule HV_N_Default
-	(constraint clearance (min "7mm"))
-	(condition "A.NetClass == 'HV_N' && B.NetClass == 'Default'"))
-(rule HV_N_HV_E
-	(constraint clearance (min "3mm"))
-	(condition "A.NetClass == 'HV_N' && B.NetClass == 'HV_E'"))
-(rule HV_N_HV_L_{fused}
-	(constraint clearance (min "3mm"))
-	(condition "A.NetClass == 'HV_N' && B.NetClass == 'HV_L_{fused}'"))
-(rule HV_N_HV_L_{in}
-	(constraint clearance (min "3mm"))
-	(condition "A.NetClass == 'HV_N' && B.NetClass == 'HV_L_{in}'"))
-(rule HV_N_HV_L_{out}
-	(constraint clearance (min "3mm"))
-	(condition "A.NetClass == 'HV_N' && B.NetClass == 'HV_L_{out}'"))
-(rule HV_N_HV_N
-	(constraint clearance (min "1mm"))
-	(condition "A.NetClass == 'HV_N' && B.NetClass == 'HV_N'"))
+(rule HV_Default
+	(constraint clearance (min "5.16mm"))
+	(condition "A.NetClass == 'HV' && B.NetClass == 'Default'"))
+(rule HV_HV
+	(constraint clearance (min "2.58mm"))
+	(condition "A.NetClass == 'HV' && B.NetClass == 'HV'"))
+(rule HV_{E}_Default
+	(constraint clearance (min "5.16mm"))
+	(condition "A.NetClass == 'HV_{E}' && B.NetClass == 'Default'"))
+(rule HV_{E}_HV
+	(constraint clearance (min "5.16mm"))
+	(condition "A.NetClass == 'HV_{E}' && B.NetClass == 'HV'"))
+(rule HV_{E}_HV_{E}
+	(constraint clearance (min "50.0mm"))
+	(condition "A.NetClass == 'HV_{E}' && B.NetClass == 'HV_{E}'"))
+(rule HV_{L}_Default
+	(constraint clearance (min "5.16mm"))
+	(condition "A.NetClass == 'HV_{L}' && B.NetClass == 'Default'"))
+(rule HV_{L}_HV
+	(constraint clearance (min "5.16mm"))
+	(condition "A.NetClass == 'HV_{L}' && B.NetClass == 'HV'"))
+(rule HV_{L}_HV_{E}
+	(constraint clearance (min "2.58mm"))
+	(condition "A.NetClass == 'HV_{L}' && B.NetClass == 'HV_{E}'"))
+(rule HV_{L}_HV_{L}
+	(constraint clearance (min "2.58mm"))
+	(condition "A.NetClass == 'HV_{L}' && B.NetClass == 'HV_{L}'"))
+(rule HV_{N}_Default
+	(constraint clearance (min "5.16mm"))
+	(condition "A.NetClass == 'HV_{N}' && B.NetClass == 'Default'"))
+(rule HV_{N}_HV
+	(constraint clearance (min "5.16mm"))
+	(condition "A.NetClass == 'HV_{N}' && B.NetClass == 'HV'"))
+(rule HV_{N}_HV_{E}
+	(constraint clearance (min "2.58mm"))
+	(condition "A.NetClass == 'HV_{N}' && B.NetClass == 'HV_{E}'"))
+(rule HV_{N}_HV_{L}
+	(constraint clearance (min "2.58mm"))
+	(condition "A.NetClass == 'HV_{N}' && B.NetClass == 'HV_{L}'"))
+(rule HV_{N}_HV_{N}
+	(constraint clearance (min "1.0mm"))
+	(condition "A.NetClass == 'HV_{N}' && B.NetClass == 'HV_{N}'"))
 # Auto-Generated - end
+
+(rule Creepage_Default_Default
+	(constraint creepage (min "0.2mm"))
+	(condition "A.NetClass == 'Default' && B.NetClass == 'Default'"))
+(rule Creepage_HV_Default
+	(constraint creepage (min "8mm"))
+	(condition "A.NetClass == 'HV' && B.NetClass == 'Default'"))
+(rule Creepage_HV_HV
+	(constraint creepage (min "4mm"))
+	(condition "A.NetClass == 'HV' && B.NetClass == 'HV'"))
+(rule Creepage_HV_{E}_Default
+	(constraint creepage (min "8mm"))
+	(condition "A.NetClass == 'HV_{E}' && B.NetClass == 'Default'"))
+(rule Creepage_HV_{E}_HV
+	(constraint creepage (min "8mm"))
+	(condition "A.NetClass == 'HV_{E}' && B.NetClass == 'HV'"))
+(rule Creepage_HV_{E}_HV_{E}
+	(constraint creepage (min "50.0mm"))
+	(condition "A.NetClass == 'HV_{E}' && B.NetClass == 'HV_{E}'"))
+(rule Creepage_HV_{L}_Default
+	(constraint creepage (min "8mm"))
+	(condition "A.NetClass == 'HV_{L}' && B.NetClass == 'Default'"))
+(rule Creepage_HV_{L}_HV
+	(constraint creepage (min "8mm"))
+	(condition "A.NetClass == 'HV_{L}' && B.NetClass == 'HV'"))
+(rule Creepage_HV_{L}_HV_{E}
+	(constraint creepage (min "4mm"))
+	(condition "A.NetClass == 'HV_{L}' && B.NetClass == 'HV_{E}'"))
+(rule Creepage_HV_{L}_HV_{L}
+	(constraint creepage (min "4mm"))
+	(condition "A.NetClass == 'HV_{L}' && B.NetClass == 'HV_{L}'"))
+(rule Creepage_HV_{N}_Default
+	(constraint creepage (min "8mm"))
+	(condition "A.NetClass == 'HV_{N}' && B.NetClass == 'Default'"))
+(rule Creepage_HV_{N}_HV
+	(constraint creepage (min "8mm"))
+	(condition "A.NetClass == 'HV_{N}' && B.NetClass == 'HV'"))
+(rule Creepage_HV_{N}_HV_{E}
+	(constraint creepage (min "4mm"))
+	(condition "A.NetClass == 'HV_{N}' && B.NetClass == 'HV_{E}'"))
+(rule Creepage_HV_{N}_HV_{L}
+	(constraint creepage (min "4mm"))
+	(condition "A.NetClass == 'HV_{N}' && B.NetClass == 'HV_{L}'"))
+(rule Creepage_HV_{N}_HV_{N}
+	(constraint creepage (min "0.5mm"))
+	(condition "A.NetClass == 'HV_{N}' && B.NetClass == 'HV_{N}'"))

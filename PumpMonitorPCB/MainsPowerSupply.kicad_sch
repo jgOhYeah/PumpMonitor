@@ -3496,12 +3496,6 @@
 		(uuid "9a5737f1-4c44-4396-8a36-e1700a6d0cc4")
 	)
 	(junction
-		(at 38.1 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0a42f2a-2583-49ca-b9a3-c98faa812996")
-	)
-	(junction
 		(at 182.88 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3524,6 +3518,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1cef9f6-5bee-4572-a291-57709655e8ad")
+	)
+	(junction
+		(at 38.1 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1e11502-ffae-4878-9b25-1889738e23ae")
 	)
 	(junction
 		(at 124.46 142.24)
@@ -3590,16 +3590,6 @@
 			(type default)
 		)
 		(uuid "03bf50ec-9c86-40ba-81ae-b065001d8807")
-	)
-	(wire
-		(pts
-			(xy 27.94 87.63) (xy 71.12 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03daa89a-6f37-4c70-8d59-bfc0b47ff633")
 	)
 	(wire
 		(pts
@@ -4065,7 +4055,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 92.71) (xy 38.1 92.71)
+			(xy 27.94 87.63) (xy 38.1 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4357,7 +4347,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 92.71) (xy 71.12 92.71)
+			(xy 38.1 87.63) (xy 71.12 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4921,6 +4911,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 87.63) (xy 38.1 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72270a0-17a4-4ee0-bb47-8591b5be7b66")
+	)
+	(wire
+		(pts
 			(xy 95.25 142.24) (xy 113.03 142.24)
 		)
 		(stroke
@@ -4951,6 +4951,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 92.71) (xy 71.12 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3e9b0c-b56e-46d4-8bb1-5ecce857d80d")
+	)
+	(wire
+		(pts
 			(xy 146.05 177.8) (xy 146.05 180.34)
 		)
 		(stroke
@@ -4969,19 +4979,9 @@
 		)
 		(uuid "fdf2dc53-a347-4b15-91a4-25983b4a2077")
 	)
-	(wire
-		(pts
-			(xy 38.1 92.71) (xy 38.1 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb2468d-8fde-4aba-9d21-28112606fb13")
-	)
 	(hierarchical_label "Neutral out"
 		(shape output)
-		(at 27.94 87.63 180)
+		(at 27.94 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5014,7 +5014,7 @@
 	)
 	(hierarchical_label "Neutral in"
 		(shape input)
-		(at 27.94 92.71 180)
+		(at 27.94 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5101,37 +5101,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 30.48 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13dc4479-d3c5-4b4f-b5fb-2ecd5beb5ee5")
-		(property "Netclass" "HV_{N}"
-			(at 31.1785 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -93.98 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 30.48 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5140,7 +5109,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4b41d141-08af-47a6-98b5-6aa455f392f8")
+		(uuid "13dc4479-d3c5-4b4f-b5fb-2ecd5beb5ee5")
 		(property "Netclass" "HV_{N}"
 			(at 31.1785 85.09 0)
 			(effects
@@ -5152,6 +5121,37 @@
 		)
 		(property "Component Class" ""
 			(at -93.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 30.48 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b41d141-08af-47a6-98b5-6aa455f392f8")
+		(property "Netclass" "HV_{N}"
+			(at 31.1785 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -93.98 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

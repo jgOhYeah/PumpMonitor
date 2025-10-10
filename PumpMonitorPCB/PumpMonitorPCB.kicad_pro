@@ -664,6 +664,9 @@
       "Net-(F2-Pad2)": [
         "HV_L_{fused}"
       ],
+      "Net-(F3-Pad1)": [
+        "HV"
+      ],
       "Net-(PS1-AC{slash}L)": [
         "HV_{L}"
       ],
@@ -695,7 +698,7 @@
         "pattern": ""
       },
       {
-        "netclass": "Default",
+        "netclass": "HV_{L}",
         "pattern": "unconnected-(K1-Pad12)"
       }
     ]
