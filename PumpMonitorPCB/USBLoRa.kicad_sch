@@ -3478,6 +3478,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyNumber" ""
+			(at 148.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "7e4fe8a2-4c4a-4c87-a51b-3fd10e6ed0cd")
 		)
@@ -3558,6 +3567,15 @@
 			)
 		)
 		(property "Part number" ""
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyNumber" "311-1088-1-ND"
 			(at 143.51 48.26 0)
 			(effects
 				(font
@@ -3804,6 +3822,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyNumber" ""
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "639ac071-f9dc-4722-9535-163a873136b0")
 		)
@@ -3976,6 +4003,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyNumber" ""
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25d2d311-458b-4b36-b9f7-d8baa2cf1449")
 		)
@@ -4119,6 +4155,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyNumber" ""
+			(at 243.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "457ed936-35f5-487c-81c5-0ec2e50c4477")
 		)
@@ -4233,6 +4278,15 @@
 			)
 		)
 		(property "Part number" ""
+			(at 105.41 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyNumber" ""
 			(at 105.41 46.99 0)
 			(effects
 				(font
@@ -4690,6 +4744,15 @@
 			)
 		)
 		(property "Part number" ""
+			(at 220.98 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyNumber" "1727-3849-1-ND"
 			(at 220.98 95.25 90)
 			(effects
 				(font
